@@ -1,0 +1,11 @@
+.a2w-small {
+	font-size: 9px;
+}
+
+.a2w-error {
+	color: red;
+}
+
+.a2w-hidden-shipping-recalc {
+    display: none;
+}

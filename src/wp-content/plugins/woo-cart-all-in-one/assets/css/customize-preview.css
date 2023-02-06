@@ -1,0 +1,78 @@
+.vi-wcaio-disabled {
+    display: none !important;
+}
+.vi-wcaio-premium{
+    cursor: default !important;
+}
+.vi-wcaio-customize-range {
+    display: flex;
+    justify-content: space-between;
+}
+
+.vi-wcaio-customize-range .vi-ui.range .inner .thumb {
+    width: 10px;
+    height: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.vi-wcaio-customize-range-value {
+    width: 40px !important;
+    text-align: center !important;
+    border-radius: 10px !important;
+    padding: 0 !important;
+}
+
+input.vi-wcaio-customize-range-value::-webkit-outer-spin-button,
+input.vi-wcaio-customize-range-value::-webkit-inner-spin-button {
+    -webkit-appearance: none !important;
+    margin-right: 0 !important;
+}
+
+.vi-wcaio-customize-range-min-max {
+    max-width: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.vi-wcaio-customize-radio {
+    margin: 3px 8px;
+    border-radius: 0;
+    border: none;
+    background: transparent;
+    float: left;
+}
+
+.vi-wcaio-customize-radio i {
+    max-width: 100%;
+    height: auto;
+    opacity: .7;
+    background: none !important;
+}
+.vi-wcaio-customize-radio i:before {
+    font-size: 20px !important;
+}
+
+.vi-wcaio-customize-radio .ui-state-active i {
+    color: #000;
+    opacity: 1 !important;
+}
+
+.vi-wcaio-customize-radio label {
+    border: unset !important;
+    line-height: normal !important;
+    padding: 0 !important;
+    background: transparent !important;
+    box-shadow: unset !important;
+}
+.vi-wcaio-customize-radio .ui-icon{
+    display: none !important;
+}
+
+.vi-wcaio-customize-radio .ui-state-active .viwcaio_sc_icon_style_img {
+    box-shadow: 0px 0px 2px 0px #000;
+}
+
+.viwcaio_sc_icon_style_img {
+    max-width: 70px !important;
+    padding: 0 !important;
+}

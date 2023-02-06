@@ -1,0 +1,8 @@
+2022-06-17T23:26:02+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wads_wooshark_myprefix_cron_function()" not found or invalid function name in C:\xampp\htdocs\dropshipping\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 C:\xampp\htdocs\dropshipping\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\dropshipping\wp-includes\plugin.php(524): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\dropshipping\wp-cron.php(138): do_action_ref_array('wooshark_mypref...', Array)
+#3 {main}
+  thrown in C:\xampp\htdocs\dropshipping\wp-includes\class-wp-hook.php on line 307
+

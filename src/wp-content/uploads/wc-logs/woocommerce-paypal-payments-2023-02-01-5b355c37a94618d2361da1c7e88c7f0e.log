@@ -1,0 +1,36 @@
+2023-02-01T02:32:47+00:00 DEBUG POST https://api.paypal.com/v1/oauth2/token?grant_type=client_credentials
+Response Debug ID: 621ae8610dfec
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2023-02-01T02:32:47+00:00 DEBUG GET https://api.paypal.com/v1/customer/partners/K8SKZ36LQBWXJ/merchant-integrations/QMS6WEK58JRUY
+Response Debug ID: fd1260f9791d
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2023-02-01T02:32:48+00:00 DEBUG GET https://api.paypal.com/v1/customer/partners/K8SKZ36LQBWXJ/merchant-integrations/QMS6WEK58JRUY
+Response Debug ID: 758c4e4593438
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2023-02-01T02:32:49+00:00 DEBUG GET https://api.paypal.com/v1/notifications/webhooks
+Response Debug ID: f25ade8271a8a
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+

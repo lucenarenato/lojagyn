@@ -1,0 +1,8 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+ .single-product .woocommerce-product-gallery .flex-control-thumbs li {
+    /*overwrite the value with you theme/child theme style.css file.*/
+    width: 14.765%;
+}

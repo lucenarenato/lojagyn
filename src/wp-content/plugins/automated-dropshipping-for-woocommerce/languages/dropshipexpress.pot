@@ -1,0 +1,2318 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR CydBytes
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: DropshipExpress 1.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-10 02:54+0330\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: includes/apis/shipment/zinc.php:99
+msgid ""
+"Failed to purchase the product. Ordering API has replied with an empty "
+"response."
+msgstr ""
+
+#: includes/apis/stores/aliexpress.php:45
+#: templates/admin/settings-import-new.php:104
+#: templates/admin/import-rules/aliexpress.php:45
+msgid "All Categories"
+msgstr ""
+
+#: includes/apis/stores/aliexpress.php:152
+#: includes/apis/stores/aliexpress.php:1756
+msgid "Could not fetch product from AliExpress. Please try again later."
+msgstr ""
+
+#: includes/apis/stores/aliexpress.php:157
+msgid ""
+"The product ID or URL that you have entered does not seem to point to a "
+"valid product. Please double check your input."
+msgstr ""
+
+#: includes/apis/stores/aliexpress.php:189
+msgid "Unable to extract the product info. Please try again later."
+msgstr ""
+
+#: includes/apis/stores/aliexpress.php:611
+msgid "The entered URL is not valid. Please check the URL and try again."
+msgstr ""
+
+#: includes/apis/stores/aliexpress.php:621
+msgid ""
+"The entered URL does not belong to AliExpress. The URL must be pointing to "
+"aliexpress.com or its subdomains."
+msgstr ""
+
+#: includes/apis/stores/aliexpress.php:638
+msgid ""
+"The provided URL does not appear to be a valid product URL. The general form "
+"for a product URL is: https://aliexpress.com/item/1234567890.html"
+msgstr ""
+
+#: includes/apis/stores/aliexpress.php:677
+msgid "The requested product has already been imported."
+msgstr ""
+
+#: includes/apis/stores/aliexpress.php:679
+msgid "The requested product has already been published on your store."
+msgstr ""
+
+#: includes/apis/stores/aliexpress.php:1007
+msgid "Buy on AliExpress"
+msgstr ""
+
+#: includes/apis/stores/aliexpress.php:1130
+#, php-format
+msgid ""
+"An error has occurred while trying to save the product. You can visit the "
+"original product page <a href=\"%1$s\" target=\"_blank\">here.</a>"
+msgstr ""
+
+#: includes/apis/stores/aliexpress.php:1206
+#, php-format
+msgid ""
+"Failed to import attributes for the product. You can check the associated "
+"product <a href=\"%1$s\" target=\"_blank\">here.</a>"
+msgstr ""
+
+#: includes/apis/stores/aliexpress.php:1303
+#, php-format
+msgid ""
+"An error has occurred while trying to publish the variations of the product. "
+"You can visit the original product page <a href=\"%1$s\" target=\"_blank"
+"\">here.</a>"
+msgstr ""
+
+#: includes/apis/stores/aliexpress.php:1398
+msgid "Can not publish post. The provided post ID is not valid."
+msgstr ""
+
+#: includes/apis/stores/aliexpress.php:1419
+msgid ""
+"Can not get the product from the database. It might have already been "
+"removed."
+msgstr ""
+
+#: includes/apis/stores/aliexpress.php:1490
+#: includes/apis/stores/aliexpress.php:1624
+msgid "Can not remove the item. The requested item ID is not valid."
+msgstr ""
+
+#: includes/apis/stores/aliexpress.php:1496
+#: includes/apis/stores/aliexpress.php:1638
+msgid ""
+"An error occurred while trying to remove the item. Please try again later."
+msgstr ""
+
+#: includes/apis/stores/aliexpress.php:1521
+msgid ""
+"The requested product can not be found. It might have been removed or "
+"already published."
+msgstr ""
+
+#: includes/apis/stores/aliexpress.php:1666
+msgid "Invalid search parameters. Please try again."
+msgstr ""
+
+#: includes/apis/stores/aliexpress.php:1763
+#, php-format
+msgid "The server has responded with a %1$d error code. Please try again."
+msgstr ""
+
+#: includes/apis/stores/aliexpress.php:1772
+msgid "Can not decode the results. Please try again later."
+msgstr ""
+
+#: includes/apis/stores/aliexpress.php:1778
+msgid "Api has responded with a malformed reply. Please try again later."
+msgstr ""
+
+#: includes/apis/stores/aliexpress.php:1794
+msgid ""
+"The API did respond, but the data was not valid. Please try again later."
+msgstr ""
+
+#: includes/apis/stores/aliexpress.php:1823
+msgid "API key or secret is blank. Please review the settings."
+msgstr ""
+
+#: includes/apis/stores/aliexpress.php:1830
+msgid "One of the plugin's files are missing. Please reinstall the plugin."
+msgstr ""
+
+#: includes/apis/stores/aliexpress.php:1890
+msgid "Could not query AliExpress at this moment. Please try again later."
+msgstr ""
+
+#: includes/apis/stores/aliexpress.php:1894
+msgid "Received an empty response from AliExpress. Please try again later."
+msgstr ""
+
+#: includes/apis/stores/aliexpress.php:1902
+msgid ""
+"AliExpress has sent an invalid response. Please check your API credentials "
+"and try again."
+msgstr ""
+
+#: includes/apis/stores/aliexpress.php:1941
+msgid ""
+"The call to AliExpress was successful, but an unknown error happened. Please "
+"try again later."
+msgstr ""
+
+#: includes/classes/class-dse_core.php:26
+msgid ""
+"DropshipExpress requires the WooCommerce plugin to be activated. Please "
+"install and activate WooCommerce by clicking the following link."
+msgstr ""
+
+#: includes/classes/class-dse_core.php:27
+msgid "Can not activate plugin"
+msgstr ""
+
+#: includes/classes/class-dse_core.php:30
+msgid "Download from WordPress.org"
+msgstr ""
+
+#: includes/classes/class-dse_core.php:93
+msgid ""
+"Can not create the log file. Please check your permission on the uploads "
+"directory. Without the log file, your will not be notified of warnings and "
+"errors regarding this plugin."
+msgstr ""
+
+#: includes/classes/class-dse_core.php:105
+msgid ""
+"Can not create the .htaccess file for DropshipExpress logs. Without this "
+"file, your logs can be accessed by anyone. Please contact your server's "
+"administrator before using this plugin."
+msgstr ""
+
+#: includes/classes/class-dse_core.php:111
+msgid ""
+"Can not create the required files. The plugin can't write the files to the "
+"disk."
+msgstr ""
+
+#: includes/classes/class-dse_core.php:198
+msgid ""
+"DropshipExpress requires the WooCommerce plugin to operate. Please install "
+"and activate WooCommerce first."
+msgstr ""
+
+#: includes/classes/class-dse_import.php:40
+#: includes/classes/class-dse_settings.php:181
+#: includes/classes/class-dse_settings.php:765
+#: includes/classes/class-dse_settings.php:956
+msgid "Sorry, you are not allowed to perform this operation."
+msgstr ""
+
+#: includes/classes/class-dse_import.php:71
+msgid "AliExpress"
+msgstr ""
+
+#: includes/classes/class-dse_import.php:75
+msgid "Amazon"
+msgstr ""
+
+#: includes/classes/class-dse_import.php:79
+msgid "Walmart"
+msgstr ""
+
+#: includes/classes/class-dse_import.php:83
+msgid "Costco"
+msgstr ""
+
+#: includes/classes/class-dse_import.php:87
+msgid "Ebay"
+msgstr ""
+
+#: includes/classes/class-dse_import.php:91
+msgid "GearBest"
+msgstr ""
+
+#: includes/classes/class-dse_import.php:95
+msgid "Vip.com"
+msgstr ""
+
+#: includes/classes/class-dse_import.php:99
+msgid "Homedepot"
+msgstr ""
+
+#: includes/classes/class-dse_import.php:103
+msgid "Lowe's"
+msgstr ""
+
+#: includes/classes/class-dse_import.php:156
+#: includes/classes/class-dse_import.php:419
+msgid "Only logged in users are allowed to perform this action."
+msgstr ""
+
+#: includes/classes/class-dse_import.php:161
+#: includes/classes/class-dse_import.php:424
+msgid "Product ID seems to be missing. Please refresh the page and try again."
+msgstr ""
+
+#: includes/classes/class-dse_import.php:165
+#: includes/classes/class-dse_import.php:428
+msgid "Can not verify your request. Please refresh the page and try again."
+msgstr ""
+
+#: includes/classes/class-dse_import.php:175
+#: includes/classes/class-dse_import.php:438
+#: includes/classes/class-dse_import.php:1683
+msgid "You do not have the required permissions to perform this task."
+msgstr ""
+
+#: includes/classes/class-dse_import.php:183
+#: includes/classes/class-dse_import.php:446
+msgid ""
+"There was a problem loading the proper API. Please refresh the page and try "
+"again."
+msgstr ""
+
+#: includes/classes/class-dse_import.php:192
+msgid "Successfully Deleted the product."
+msgstr ""
+
+#: includes/classes/class-dse_import.php:203
+msgid "Successfully queued the product to be published."
+msgstr ""
+
+#: includes/classes/class-dse_import.php:226
+msgid "You do not have permission to perform this task."
+msgstr ""
+
+#: includes/classes/class-dse_import.php:269
+msgid "(All)"
+msgstr ""
+
+#: includes/classes/class-dse_import.php:457
+msgid "New product import"
+msgstr ""
+
+#: includes/classes/class-dse_import.php:458
+msgid "An item has been imported to your store"
+msgstr ""
+
+#: includes/classes/class-dse_import.php:459
+msgid ""
+"A product has been manually or automatically imported to your store. The "
+"newly imported product can be accessed from your dashboard."
+msgstr ""
+
+#: includes/classes/class-dse_import.php:460
+#: includes/classes/class-dse_import.php:916
+#: includes/classes/class-dse_import.php:1407
+msgid ""
+"This email has been sent to you by DropshipExpress plugin because you have "
+"enabled the option to receive these notifications."
+msgstr ""
+
+#: includes/classes/class-dse_import.php:508
+#: includes/classes/class-dse_shipping.php:466
+msgid ""
+"Failed to notify admin via email about the new order. Please check your "
+"email settings."
+msgstr ""
+
+#: includes/classes/class-dse_import.php:541
+msgid "The supplied product ID is not valid."
+msgstr ""
+
+#: includes/classes/class-dse_import.php:545
+msgid "The requested store is not enabled on this plugin."
+msgstr ""
+
+#: includes/classes/class-dse_import.php:559
+msgid "The requested store does not exist on this website."
+msgstr ""
+
+#: includes/classes/class-dse_import.php:580
+#: includes/classes/class-dse_import.php:622
+msgid "The requested API does not exist."
+msgstr ""
+
+#: includes/classes/class-dse_import.php:783
+#, php-format
+msgid "Can not automatically import product id %1$s from %2$s. %3$s"
+msgstr ""
+
+#: includes/classes/class-dse_import.php:801
+#, php-format
+msgid "Can not automatically import products from %1$s. %2$s"
+msgstr ""
+
+#: includes/classes/class-dse_import.php:860
+msgid "Failed to autopublish imported product. The product data is corrupt."
+msgstr ""
+
+#: includes/classes/class-dse_import.php:901
+msgid "New product published"
+msgstr ""
+
+#: includes/classes/class-dse_import.php:902
+msgid "An item has been published on your store"
+msgstr ""
+
+#: includes/classes/class-dse_import.php:906
+#, php-format
+msgid ""
+"A product has been automatically published on your store by DropshipExpress "
+"plugin. The newly imported product can be accessed from your dashboard, or "
+"visited <a href=\"%1$s\" target=\"_blank\">here</a>."
+msgstr ""
+
+#: includes/classes/class-dse_import.php:922
+msgid "Failed to publish imported product. The product data is corrupt."
+msgstr ""
+
+#: includes/classes/class-dse_import.php:1392
+msgid "Product Updated"
+msgstr ""
+
+#: includes/classes/class-dse_import.php:1393
+msgid "An item on your store has been updated"
+msgstr ""
+
+#: includes/classes/class-dse_import.php:1397
+#, php-format
+msgid ""
+"A product has been automatically updated on your store by DropshipExpress "
+"plugin. The updated product can be visited <a href=\"%1$s\" target=\"_blank"
+"\">here</a>."
+msgstr ""
+
+#: includes/classes/class-dse_import.php:1671
+msgid "You are not allowed to perform this action."
+msgstr ""
+
+#: includes/classes/class-dse_import.php:1707
+msgid "Requested API is invalid."
+msgstr ""
+
+#: includes/classes/class-dse_menu.php:47
+#: includes/classes/class-dse_menu.php:48
+#: includes/classes/class-dse_register.php:59
+msgid "DropshipExpress"
+msgstr ""
+
+#: includes/classes/class-dse_menu.php:64
+#: includes/classes/class-dse_menu.php:65
+msgid "General Options"
+msgstr ""
+
+#: includes/classes/class-dse_menu.php:80
+msgid "Import New Product"
+msgstr ""
+
+#: includes/classes/class-dse_menu.php:81
+msgid "Search / Import"
+msgstr ""
+
+#: includes/classes/class-dse_menu.php:97
+msgid "View Imported Products"
+msgstr ""
+
+#: includes/classes/class-dse_menu.php:98
+#: includes/classes/class-dse_register.php:612
+#: templates/admin/imported-products/wrapper-page.php:18
+msgid "Imported Products"
+msgstr ""
+
+#: includes/classes/class-dse_menu.php:114
+#: includes/classes/class-dse_menu.php:115
+#: templates/admin/settings-upgrade.php:77
+#: templates/admin/settings-upgrade.php:142
+#: templates/admin/settings-upgrade.php:209
+#: templates/admin/settings-upgrade.php:280
+#: templates/admin/tabs-content/aliexpress.php:262
+msgid "Import Rules"
+msgstr ""
+
+#: includes/classes/class-dse_menu.php:148
+#: includes/classes/class-dse_menu.php:149
+msgid "Logs"
+msgstr ""
+
+#: includes/classes/class-dse_menu.php:167
+#: includes/classes/class-dse_menu.php:168
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: includes/classes/class-dse_menu.php:183
+#: includes/classes/class-dse_menu.php:184
+#: templates/admin/settings-activation.php:36
+msgid "Plugin Activation"
+msgstr ""
+
+#: includes/classes/class-dse_product.php:290
+msgid "The provided data is not a valid product."
+msgstr ""
+
+#: includes/classes/class-dse_register.php:88
+#: includes/classes/class-dse_register.php:92
+msgid "Product ID"
+msgstr ""
+
+#: includes/classes/class-dse_register.php:91
+msgid "Product ID on the retailer store"
+msgstr ""
+
+#: includes/classes/class-dse_register.php:100
+#: includes/classes/class-dse_register.php:104
+msgid "Product URL"
+msgstr ""
+
+#: includes/classes/class-dse_register.php:103
+msgid "Full product link on the retailer store"
+msgstr ""
+
+#: includes/classes/class-dse_register.php:118
+msgid "Disable Sync?"
+msgstr ""
+
+#: includes/classes/class-dse_register.php:121
+msgid "Disable syncing this product regardless of the syncing options"
+msgstr ""
+
+#: includes/classes/class-dse_register.php:221
+msgid "Processing ..."
+msgstr ""
+
+#: includes/classes/class-dse_register.php:222
+msgid "Searching ..."
+msgstr ""
+
+#: includes/classes/class-dse_register.php:223
+msgid ""
+"An unknown error has occurred while trying to process. Please try again in a "
+"moment."
+msgstr ""
+
+#: includes/classes/class-dse_register.php:558
+msgid "The product you are viewing has been updated. Please refresh the page."
+msgstr ""
+
+#: includes/classes/class-dse_register.php:626
+msgid "Published Products"
+msgstr ""
+
+#: includes/classes/class-dse_register.php:663
+msgid "DropshipExpress: Default cron running every minute"
+msgstr ""
+
+#: includes/classes/class-dse_register.php:675
+#: includes/classes/class-dse_register.php:700
+#, php-format
+msgid "DropshipExpress: Every %1$s seconds"
+msgstr ""
+
+#: includes/classes/class-dse_register.php:710
+msgid "DropshipExpress: Cron interval to processed the order API"
+msgstr ""
+
+#: includes/classes/class-dse_register.php:729
+msgid "DropshipExpress Order Status"
+msgstr ""
+
+#: includes/classes/class-dse_register.php:801
+msgid "Product Source"
+msgstr ""
+
+#: includes/classes/class-dse_register.php:802
+msgid ""
+"Internal taxonomy created by the plugin to manage the products. This should "
+"not be manually edited."
+msgstr ""
+
+#: includes/classes/class-dse_settings.php:170
+msgid "Only available in pro version"
+msgstr ""
+
+#: includes/classes/class-dse_settings.php:170
+msgid "Pro!"
+msgstr ""
+
+#: includes/classes/class-dse_settings.php:522
+msgid "Successfully saved settings."
+msgstr ""
+
+#: includes/classes/class-dse_settings.php:582
+msgid "Australian dollar ($)"
+msgstr ""
+
+#: includes/classes/class-dse_settings.php:583
+msgid "Brazilian cruzeiro real (CR$)"
+msgstr ""
+
+#: includes/classes/class-dse_settings.php:584
+msgid "Canadian Dollar ($)"
+msgstr ""
+
+#: includes/classes/class-dse_settings.php:585
+msgid "Euro (€)"
+msgstr ""
+
+#: includes/classes/class-dse_settings.php:586
+msgid "United Kingdom Pound (£)"
+msgstr ""
+
+#: includes/classes/class-dse_settings.php:587
+msgid "Indonesian rupiah (Rp)"
+msgstr ""
+
+#: includes/classes/class-dse_settings.php:588
+msgid "Indian rupee (₹)"
+msgstr ""
+
+#: includes/classes/class-dse_settings.php:589
+msgid "Japan Yen (¥)"
+msgstr ""
+
+#: includes/classes/class-dse_settings.php:590
+msgid "Korea Won (₩)"
+msgstr ""
+
+#: includes/classes/class-dse_settings.php:591
+msgid "Mexican peso ($)"
+msgstr ""
+
+#: includes/classes/class-dse_settings.php:592
+msgid "Russia Ruble (₽)"
+msgstr ""
+
+#: includes/classes/class-dse_settings.php:593
+msgid "Sweden Krona (kr)"
+msgstr ""
+
+#: includes/classes/class-dse_settings.php:594
+msgid "Turkish lira (₺)"
+msgstr ""
+
+#: includes/classes/class-dse_settings.php:595
+msgid "Ukrainian hryvnia (₴)"
+msgstr ""
+
+#: includes/classes/class-dse_settings.php:596
+msgid "United States Dollar ($)"
+msgstr ""
+
+#: includes/classes/class-dse_settings.php:620
+msgid "العربية"
+msgstr ""
+
+#: includes/classes/class-dse_settings.php:621
+msgid "Deutsch"
+msgstr ""
+
+#: includes/classes/class-dse_settings.php:622
+msgid "English"
+msgstr ""
+
+#: includes/classes/class-dse_settings.php:623
+msgid "Español"
+msgstr ""
+
+#: includes/classes/class-dse_settings.php:624
+msgid "Español (Chile)"
+msgstr ""
+
+#: includes/classes/class-dse_settings.php:625
+msgid "Español (Mexico)"
+msgstr ""
+
+#: includes/classes/class-dse_settings.php:626
+msgid "עברית"
+msgstr ""
+
+#: includes/classes/class-dse_settings.php:627
+msgid "Modern Hebrew"
+msgstr ""
+
+#: includes/classes/class-dse_settings.php:628
+msgid "Français"
+msgstr ""
+
+#: includes/classes/class-dse_settings.php:629
+msgid "Bahasa Indonesia"
+msgstr ""
+
+#: includes/classes/class-dse_settings.php:630
+msgid "Italiano"
+msgstr ""
+
+#: includes/classes/class-dse_settings.php:631
+msgid "日本語 (にほんご)"
+msgstr ""
+
+#: includes/classes/class-dse_settings.php:632
+msgid "한국어"
+msgstr ""
+
+#: includes/classes/class-dse_settings.php:633
+msgid "Nederlands"
+msgstr ""
+
+#: includes/classes/class-dse_settings.php:634
+msgid "Polszczyzna"
+msgstr ""
+
+#: includes/classes/class-dse_settings.php:635
+msgid "Português"
+msgstr ""
+
+#: includes/classes/class-dse_settings.php:636
+msgid "Русский"
+msgstr ""
+
+#: includes/classes/class-dse_settings.php:637
+msgid "ไทย"
+msgstr ""
+
+#: includes/classes/class-dse_settings.php:638
+msgid "Türkçe"
+msgstr ""
+
+#: includes/classes/class-dse_settings.php:639
+msgid "Tiếng Việt"
+msgstr ""
+
+#: includes/classes/class-dse_settings.php:787
+msgid "You must be logged in to perform this action."
+msgstr ""
+
+#: includes/classes/class-dse_settings.php:809
+msgid "Received an empty response from server. Please try again later."
+msgstr ""
+
+#: includes/classes/class-dse_settings.php:834
+msgid "An unknown error happened. Please try again later."
+msgstr ""
+
+#: includes/classes/class-dse_settings.php:993
+msgid "It's too soon to request this data. Please try a later hook."
+msgstr ""
+
+#: includes/classes/class-dse_settings.php:1000
+msgid "This section does not exist in the plugin's settings."
+msgstr ""
+
+#: includes/classes/class-dse_settings.php:1008
+msgid "This option does not exist in the plugin's settings."
+msgstr ""
+
+#: includes/classes/class-dse_shipping.php:246
+#, php-format
+msgid ""
+"Can not place the order number %1$d. The API replied with the following "
+"response: %2$s"
+msgstr ""
+
+#: includes/classes/class-dse_shipping.php:271
+#, php-format
+msgid ""
+"Can not load the order API to place the order. The api \"%1$s\" is not "
+"supported by this plugin."
+msgstr ""
+
+#: includes/classes/class-dse_shipping.php:366
+msgid "DropshipExpress New Order Fulfillment"
+msgstr ""
+
+#: includes/classes/class-dse_shipping.php:372
+msgid "An order has been processed by the DropshipExpress plugin"
+msgstr ""
+
+#: includes/classes/class-dse_shipping.php:373
+msgid ""
+"An order has been placed on your website and automatically processed by the "
+"DropshipExpress because you have enabled automatic shipment."
+msgstr ""
+
+#: includes/classes/class-dse_shipping.php:374
+msgid ""
+"Below is the list of products that have been purchased, alongside their link "
+"to the retailer store and your store."
+msgstr ""
+
+#: includes/classes/class-dse_shipping.php:375
+msgid ""
+"The API was unable to purchase the below products. You need to manually "
+"purchase them and process the order."
+msgstr ""
+
+#: includes/classes/class-dse_shipping.php:376
+msgid ""
+"This email was sent to you because you have enabled the option to receive "
+"notification when a purchase is processed via DropshipExpress plugin."
+msgstr ""
+
+#: includes/classes/class-dse_shipping.php:389
+#: includes/classes/class-dse_shipping.php:413
+#: includes/classes/class-dse_shipping.php:442
+msgid "Item Name"
+msgstr ""
+
+#: includes/classes/class-dse_shipping.php:390
+#: includes/classes/class-dse_shipping.php:414
+#: includes/classes/class-dse_shipping.php:443
+msgid "Product's Link"
+msgstr ""
+
+#: includes/classes/class-dse_shipping.php:391
+#: includes/classes/class-dse_shipping.php:415
+msgid "Retailer's Link"
+msgstr ""
+
+#: includes/classes/class-dse_shipping.php:397
+#: includes/classes/class-dse_shipping.php:398
+#: includes/classes/class-dse_shipping.php:421
+#: includes/classes/class-dse_shipping.php:422
+#: includes/classes/class-dse_shipping.php:449
+msgid "View"
+msgstr ""
+
+#: includes/classes/class-dse_shipping.php:552
+msgid ""
+"Below is a list of products that have been processed by DropshipExpress's "
+"ordering API."
+msgstr ""
+
+#: includes/classes/class-dse_shipping.php:558
+msgid "Item"
+msgstr ""
+
+#: includes/classes/class-dse_shipping.php:559
+msgid "Retailer"
+msgstr ""
+
+#: includes/classes/class-dse_shipping.php:560
+msgid "Status"
+msgstr ""
+
+#: includes/classes/class-dse_shipping.php:571
+msgid "This item no longer exists on your store."
+msgstr ""
+
+#: includes/classes/class-dse_shipping.php:595
+msgid "SKU:"
+msgstr ""
+
+#: includes/classes/class-dse_shipping.php:599
+msgid "Tracking ID:"
+msgstr ""
+
+#: includes/classes/class-dse_shipping.php:605
+msgid "View on retailer"
+msgstr ""
+
+#: includes/classes/class-dse_shipping.php:620
+msgid ""
+"This order does not contain any item that has been processed by "
+"DropshipExpress's order API."
+msgstr ""
+
+#: templates/admin/settings-activation.php:55
+#, php-format
+msgid ""
+"Plugin is not activated yet. In order to use the plugin, you need to "
+"activate your copy. Click the button below to activate. If you need a "
+"subscription, please take a look at <a href=\"%1$s\" target=\"_blank\">here."
+"</a>"
+msgstr ""
+
+#: templates/admin/settings-activation.php:66
+msgid "Plugin is activated."
+msgstr ""
+
+#: templates/admin/settings-activation.php:93
+#: templates/admin/tabs-content/aliexpress.php:427
+msgid "API Token"
+msgstr ""
+
+#: templates/admin/settings-activation.php:100
+msgid ""
+"This is your API token. It will be used to connect to our API and query "
+"stores."
+msgstr ""
+
+#: templates/admin/settings-activation.php:110
+msgid "Activate License"
+msgstr ""
+
+#: templates/admin/settings-apis.php:26
+msgid "Settings"
+msgstr ""
+
+#: templates/admin/settings-apis.php:47
+#: templates/admin/settings-import-rules.php:38
+msgid "Coming Soon"
+msgstr ""
+
+#: templates/admin/settings-apis.php:57
+msgid "General Settings"
+msgstr ""
+
+#: templates/admin/settings-apis.php:82
+msgid "Save"
+msgstr ""
+
+#: templates/admin/settings-import-new.php:25
+msgid "Search Products"
+msgstr ""
+
+#: templates/admin/settings-import-new.php:29
+msgid "Choose a Store ..."
+msgstr ""
+
+#: templates/admin/settings-import-new.php:47
+#: templates/admin/import-rules/amazon.php:9
+#: templates/admin/tabs-content/amazon.php:10
+msgid ""
+"Support for Amazon will be added soon. Be sure to always update the plugin "
+"to be the first to receive the new features."
+msgstr ""
+
+#: templates/admin/settings-import-new.php:63
+msgid "Search Keyword"
+msgstr ""
+
+#: templates/admin/settings-import-new.php:70
+msgid "Enter a keyword to search in products (required) *"
+msgstr ""
+
+#: templates/admin/settings-import-new.php:74
+#: templates/admin/import-rules/aliexpress.php:111
+msgid "Destination"
+msgstr ""
+
+#: templates/admin/settings-import-new.php:77
+#: templates/admin/import-rules/aliexpress.php:114
+msgid "Any"
+msgstr ""
+
+#: templates/admin/settings-import-new.php:78
+#: templates/admin/import-rules/aliexpress.php:115
+msgid "Austria"
+msgstr ""
+
+#: templates/admin/settings-import-new.php:79
+#: templates/admin/import-rules/aliexpress.php:116
+msgid "Belgium"
+msgstr ""
+
+#: templates/admin/settings-import-new.php:80
+#: templates/admin/import-rules/aliexpress.php:117
+msgid "Czech"
+msgstr ""
+
+#: templates/admin/settings-import-new.php:81
+#: templates/admin/import-rules/aliexpress.php:118
+msgid "Germany"
+msgstr ""
+
+#: templates/admin/settings-import-new.php:82
+#: templates/admin/import-rules/aliexpress.php:119
+msgid "Denmark"
+msgstr ""
+
+#: templates/admin/settings-import-new.php:83
+#: templates/admin/import-rules/aliexpress.php:120
+msgid "Spain"
+msgstr ""
+
+#: templates/admin/settings-import-new.php:84
+#: templates/admin/import-rules/aliexpress.php:121
+msgid "France"
+msgstr ""
+
+#: templates/admin/settings-import-new.php:85
+#: templates/admin/import-rules/aliexpress.php:122
+msgid "Hungary"
+msgstr ""
+
+#: templates/admin/settings-import-new.php:86
+#: templates/admin/import-rules/aliexpress.php:123
+msgid "Italy"
+msgstr ""
+
+#: templates/admin/settings-import-new.php:87
+#: templates/admin/import-rules/aliexpress.php:124
+msgid "Luxembourg"
+msgstr ""
+
+#: templates/admin/settings-import-new.php:88
+#: templates/admin/import-rules/aliexpress.php:125
+msgid "Netherland"
+msgstr ""
+
+#: templates/admin/settings-import-new.php:89
+#: templates/admin/import-rules/aliexpress.php:126
+msgid "Poland"
+msgstr ""
+
+#: templates/admin/settings-import-new.php:90
+#: templates/admin/import-rules/aliexpress.php:127
+msgid "Portugal"
+msgstr ""
+
+#: templates/admin/settings-import-new.php:91
+#: templates/admin/import-rules/aliexpress.php:128
+msgid "Russia"
+msgstr ""
+
+#: templates/admin/settings-import-new.php:92
+#: templates/admin/import-rules/aliexpress.php:129
+msgid "Slovenia"
+msgstr ""
+
+#: templates/admin/settings-import-new.php:93
+#: templates/admin/import-rules/aliexpress.php:130
+msgid "Slovakia"
+msgstr ""
+
+#: templates/admin/settings-import-new.php:94
+#: templates/admin/import-rules/aliexpress.php:131
+msgid "United Kingdom"
+msgstr ""
+
+#: templates/admin/settings-import-new.php:97
+msgid "Optimized delivery for this country"
+msgstr ""
+
+#: templates/admin/settings-import-new.php:102
+#: templates/admin/tabs-content/aliexpress.php:1038
+msgid "Categories"
+msgstr ""
+
+#: templates/admin/settings-import-new.php:113
+#: templates/admin/import-rules/aliexpress.php:55
+#, php-format
+msgid "%1$s (All)"
+msgstr ""
+
+#: templates/admin/settings-import-new.php:123
+msgid "Choose the categories to search"
+msgstr ""
+
+#: templates/admin/settings-import-new.php:133
+#: templates/admin/import-rules/aliexpress.php:74
+msgid "Price From"
+msgstr ""
+
+#: templates/admin/settings-import-new.php:140
+msgid "Minimum price (optional)"
+msgstr ""
+
+#: templates/admin/settings-import-new.php:144
+#: templates/admin/import-rules/aliexpress.php:86
+msgid "Price To"
+msgstr ""
+
+#: templates/admin/settings-import-new.php:151
+msgid "Maximum price (optional)"
+msgstr ""
+
+#: templates/admin/settings-import-new.php:157
+msgid "Order by"
+msgstr ""
+
+#: templates/admin/settings-import-new.php:160
+msgid "Default"
+msgstr ""
+
+#: templates/admin/settings-import-new.php:161
+msgid "Lowest Price"
+msgstr ""
+
+#: templates/admin/settings-import-new.php:162
+msgid "Highest Price"
+msgstr ""
+
+#: templates/admin/settings-import-new.php:163
+msgid "Least Sold"
+msgstr ""
+
+#: templates/admin/settings-import-new.php:164
+msgid "Most Sold"
+msgstr ""
+
+#: templates/admin/settings-import-new.php:167
+msgid "Choose how to sort the queried products."
+msgstr ""
+
+#: templates/admin/settings-import-new.php:173
+#: templates/admin/import-rules/aliexpress.php:98
+msgid "Delivery Delay"
+msgstr ""
+
+#: templates/admin/settings-import-new.php:176
+#: templates/admin/import-rules/aliexpress.php:101
+msgid "3 Days"
+msgstr ""
+
+#: templates/admin/settings-import-new.php:177
+#: templates/admin/import-rules/aliexpress.php:102
+msgid "7 Days"
+msgstr ""
+
+#: templates/admin/settings-import-new.php:178
+#: templates/admin/import-rules/aliexpress.php:103
+msgid "10 Days"
+msgstr ""
+
+#: templates/admin/settings-import-new.php:181
+msgid ""
+"Approximate waiting time for the package to be delivered at destination."
+msgstr ""
+
+#: templates/admin/settings-import-new.php:187
+msgid "Product ID or URL"
+msgstr ""
+
+#: templates/admin/settings-import-new.php:189
+msgid "Example: 1234 or https://aliexpress.com/item/1234.html"
+msgstr ""
+
+#: templates/admin/settings-import-new.php:192
+msgid "Fetch"
+msgstr ""
+
+#: templates/admin/settings-import-new.php:196
+msgid ""
+"You can import a single product directly by its AliExpress item ID or URL."
+msgstr ""
+
+#: templates/admin/settings-import-new.php:207
+msgid "Reset"
+msgstr ""
+
+#: templates/admin/settings-import-new.php:212
+msgid "Search"
+msgstr ""
+
+#: templates/admin/settings-import-new.php:229
+#: templates/admin/import-rules/walmart.php:9
+msgid ""
+"Support for Walmart will be added soon. Be sure to always update the plugin "
+"to be the first to receive the new features."
+msgstr ""
+
+#: templates/admin/settings-import-new.php:241
+#: templates/admin/import-rules/costco.php:9
+#: templates/admin/tabs-content/costco.php:9
+msgid ""
+"Support for Costco will be added soon. Be sure to always update the plugin "
+"to be the first to receive the new features."
+msgstr ""
+
+#: templates/admin/settings-import-new.php:253
+msgid ""
+"Support for HomeDepot will be added soon. Be sure to always update the "
+"plugin to be the first to receive the new features."
+msgstr ""
+
+#: templates/admin/settings-import-new.php:265
+msgid ""
+"Support for Lowe's will be added soon. Be sure to always update the plugin "
+"to be the first to receive the new features."
+msgstr ""
+
+#: templates/admin/settings-import-new.php:277
+#: templates/admin/import-rules/ebay.php:9
+#: templates/admin/tabs-content/ebay.php:9
+msgid ""
+"Support for Ebay will be added soon. Be sure to always update the plugin to "
+"be the first to receive the new features."
+msgstr ""
+
+#: templates/admin/settings-import-new.php:289
+#: templates/admin/import-rules/gearbest.php:9
+#: templates/admin/tabs-content/gearbest.php:9
+msgid ""
+"Support for Gearbest will be added soon. Be sure to always update the plugin "
+"to be the first to receive the new features."
+msgstr ""
+
+#: templates/admin/settings-import-new.php:301
+#: templates/admin/import-rules/vip.php:9
+#: templates/admin/tabs-content/vip.php:9
+msgid ""
+"Support for Vip.com will be added soon. Be sure to always update the plugin "
+"to be the first to receive the new features."
+msgstr ""
+
+#: templates/admin/settings-import-new.php:313
+#: templates/admin/import-rules/jingdong.php:9
+#: templates/admin/tabs-content/jingdong.php:9
+msgid ""
+"Support for JingDong will be added soon. Be sure to always update the plugin "
+"to be the first to receive the new features."
+msgstr ""
+
+#: templates/admin/settings-import-rules.php:17
+msgid "Add New Import Rule"
+msgstr ""
+
+#: templates/admin/settings-import-rules.php:68
+msgid "Existing Rules"
+msgstr ""
+
+#: templates/admin/settings-import-rules.php:80
+msgid "Date Added"
+msgstr ""
+
+#: templates/admin/settings-import-rules.php:81
+msgid "Keyword"
+msgstr ""
+
+#: templates/admin/settings-import-rules.php:82
+msgid "Category"
+msgstr ""
+
+#: templates/admin/settings-import-rules.php:83
+msgid "Amount"
+msgstr ""
+
+#: templates/admin/settings-import-rules.php:84
+#: templates/admin/imported-products/single-product.php:116
+msgid "Store"
+msgstr ""
+
+#: templates/admin/settings-import-rules.php:85
+msgid "Actions"
+msgstr ""
+
+#: templates/admin/settings-import-rules.php:106
+#, php-format
+msgid "Every %1$s %2$s(s)"
+msgstr ""
+
+#: templates/admin/settings-import-rules.php:118
+#: templates/admin/imported-products/single-product.php:193
+#: templates/admin/imported-products/single-product.php:317
+#: templates/admin/imported-products/single-product.php:362
+#: templates/admin/tabs-content/aliexpress.php:929
+msgid "Remove"
+msgstr ""
+
+#: templates/admin/settings-import-rules.php:128
+msgid "No rule has been added yet."
+msgstr ""
+
+#: templates/admin/settings-logs.php:24
+msgid "Plugin's Log"
+msgstr ""
+
+#: templates/admin/settings-logs.php:32
+msgid ""
+"Here you can check the log that has been generated by the plugin. This "
+"information might help your diagnose any possible issues."
+msgstr ""
+
+#: templates/admin/settings-logs.php:52
+msgid "The log file is empty."
+msgstr ""
+
+#: templates/admin/settings-logs.php:55
+msgid "Can not access the log file."
+msgstr ""
+
+#: templates/admin/settings-logs.php:58
+msgid ""
+"The log file does not exist. Try deactivating and reactivating the plugin, "
+"this might fix the issue."
+msgstr ""
+
+#: templates/admin/settings-logs.php:69
+msgid "Clear Log"
+msgstr ""
+
+#: templates/admin/settings-upgrade.php:24
+msgid "Upgrade to Premium"
+msgstr ""
+
+#: templates/admin/settings-upgrade.php:35
+msgid "Basic"
+msgstr ""
+
+#: templates/admin/settings-upgrade.php:37
+msgid "Basic features. Always free."
+msgstr ""
+
+#: templates/admin/settings-upgrade.php:38
+msgid "Good place to start."
+msgstr ""
+
+#: templates/admin/settings-upgrade.php:40
+msgid "Free"
+msgstr ""
+
+#: templates/admin/settings-upgrade.php:43
+#: templates/admin/settings-upgrade.php:89
+msgid "Owned"
+msgstr ""
+
+#: templates/admin/settings-upgrade.php:49
+#: templates/admin/settings-upgrade.php:114
+#: templates/admin/settings-upgrade.php:181
+#: templates/admin/settings-upgrade.php:238
+msgid "Manual Import"
+msgstr ""
+
+#: templates/admin/settings-upgrade.php:53
+#: templates/admin/settings-upgrade.php:118
+#: templates/admin/settings-upgrade.php:185
+#: templates/admin/settings-upgrade.php:244
+msgid "Product Sync"
+msgstr ""
+
+#: templates/admin/settings-upgrade.php:57
+#: templates/admin/settings-upgrade.php:122
+#: templates/admin/settings-upgrade.php:189
+#: templates/admin/settings-upgrade.php:250
+msgid "Image Import"
+msgstr ""
+
+#: templates/admin/settings-upgrade.php:61
+#: templates/admin/settings-upgrade.php:126
+#: templates/admin/settings-upgrade.php:193
+#: templates/admin/settings-upgrade.php:256
+#: templates/admin/tabs-content/aliexpress.php:769
+msgid "Review Import"
+msgstr ""
+
+#: templates/admin/settings-upgrade.php:65
+#: templates/admin/settings-upgrade.php:130
+#: templates/admin/settings-upgrade.php:197
+#: templates/admin/settings-upgrade.php:262
+#: templates/admin/tabs-content/aliexpress.php:240
+msgid "Automatic Import"
+msgstr ""
+
+#: templates/admin/settings-upgrade.php:69
+#: templates/admin/settings-upgrade.php:134
+#: templates/admin/settings-upgrade.php:201
+#: templates/admin/settings-upgrade.php:268
+msgid "Official API Support"
+msgstr ""
+
+#: templates/admin/settings-upgrade.php:73
+#: templates/admin/settings-upgrade.php:138
+#: templates/admin/settings-upgrade.php:205
+#: templates/admin/settings-upgrade.php:274
+msgid "Priority Support"
+msgstr ""
+
+#: templates/admin/settings-upgrade.php:81
+#: templates/admin/settings-upgrade.php:146
+#: templates/admin/settings-upgrade.php:213
+#: templates/admin/settings-upgrade.php:286
+msgid "Auto Publish"
+msgstr ""
+
+#: templates/admin/settings-upgrade.php:85
+#: templates/admin/settings-upgrade.php:150
+#: templates/admin/settings-upgrade.php:217
+#: templates/admin/settings-upgrade.php:292
+msgid "Query Retailers"
+msgstr ""
+
+#: templates/admin/settings-upgrade.php:99
+msgid "Premium"
+msgstr ""
+
+#: templates/admin/settings-upgrade.php:101
+msgid "Most automated tasks"
+msgstr ""
+
+#: templates/admin/settings-upgrade.php:102
+msgid "Supports official API"
+msgstr ""
+
+#: templates/admin/settings-upgrade.php:108
+#: templates/admin/settings-upgrade.php:155
+msgid "Purchase"
+msgstr ""
+
+#: templates/admin/settings-upgrade.php:166
+msgid "Subscription"
+msgstr ""
+
+#: templates/admin/settings-upgrade.php:168
+msgid "Unlock everything, Charged monthly"
+msgstr ""
+
+#: templates/admin/settings-upgrade.php:169
+msgid "Requires premium extension"
+msgstr ""
+
+#: templates/admin/settings-upgrade.php:172
+msgid "Month"
+msgstr ""
+
+#: templates/admin/settings-upgrade.php:175
+#: templates/admin/settings-upgrade.php:222
+msgid "Subscribe"
+msgstr ""
+
+#: templates/admin/import-rules/aliexpress.php:26
+msgid "Keyword (required)"
+msgstr ""
+
+#: templates/admin/import-rules/aliexpress.php:28
+msgid "Enter a keyword to search. e.g. Dress"
+msgstr ""
+
+#: templates/admin/import-rules/aliexpress.php:38
+msgid "Only search the following category?"
+msgstr ""
+
+#: templates/admin/import-rules/aliexpress.php:143
+msgid "Automatically import a product every :"
+msgstr ""
+
+#: templates/admin/import-rules/aliexpress.php:147
+#: templates/admin/tabs-content/aliexpress.php:213
+msgid "Select Delay"
+msgstr ""
+
+#: templates/admin/import-rules/aliexpress.php:152
+#: templates/admin/tabs-content/aliexpress.php:218
+msgid "Minute(s)"
+msgstr ""
+
+#: templates/admin/import-rules/aliexpress.php:153
+#: templates/admin/tabs-content/aliexpress.php:219
+msgid "Hour(s)"
+msgstr ""
+
+#: templates/admin/import-rules/aliexpress.php:154
+#: templates/admin/tabs-content/aliexpress.php:220
+msgid "Day(s)"
+msgstr ""
+
+#: templates/admin/import-rules/aliexpress.php:168
+msgid "Add Rule"
+msgstr ""
+
+#: templates/admin/import-rules/homedepot.php:9
+#: templates/admin/tabs-content/homedepot.php:9
+msgid ""
+"Support for Homedepot will be added soon. Be sure to always update the "
+"plugin to be the first to receive the new features."
+msgstr ""
+
+#: templates/admin/import-rules/lowes.php:9
+#: templates/admin/tabs-content/lowes.php:9
+msgid ""
+"Support for Lowes will be added soon. Be sure to always update the plugin to "
+"be the first to receive the new features."
+msgstr ""
+
+#: templates/admin/imported-products/no-products.php:15
+msgid "Oops!"
+msgstr ""
+
+#: templates/admin/imported-products/no-products.php:26
+#, php-format
+msgid ""
+"No product has been imported yet, or perhaps all the imported products have "
+"been published. Try importing some new products <a href=\"%1$s\">here.</a>"
+msgstr ""
+
+#: templates/admin/imported-products/single-product.php:27
+msgid "Basic Info"
+msgstr ""
+
+#: templates/admin/imported-products/single-product.php:33
+#: templates/admin/tabs-content/aliexpress.php:312
+#: templates/admin/tabs-content/aliexpress.php:361
+#: templates/admin/tabs-content/aliexpress.php:942
+#: templates/admin/tabs-content/aliexpress.php:1030
+msgid "Description"
+msgstr ""
+
+#: templates/admin/imported-products/single-product.php:39
+#: templates/admin/tabs-content/aliexpress.php:308
+#: templates/admin/tabs-content/aliexpress.php:357
+msgid "Images"
+msgstr ""
+
+#: templates/admin/imported-products/single-product.php:46
+#: templates/admin/tabs-content/aliexpress.php:328
+#: templates/admin/tabs-content/aliexpress.php:377
+msgid "Variations"
+msgstr ""
+
+#: templates/admin/imported-products/single-product.php:53
+#: templates/admin/tabs-content/aliexpress.php:59
+#: templates/admin/tabs-content/aliexpress.php:324
+#: templates/admin/tabs-content/aliexpress.php:373
+#: templates/admin/tabs-content/aliexpress.php:954
+msgid "Reviews"
+msgstr ""
+
+#: templates/admin/imported-products/single-product.php:77
+#: templates/admin/imported-products/single-product.php:242
+msgid "No Image Available"
+msgstr ""
+
+#: templates/admin/imported-products/single-product.php:83
+msgid "Title (*):"
+msgstr ""
+
+#: templates/admin/imported-products/single-product.php:87
+msgid "Product Category (*):"
+msgstr ""
+
+#: templates/admin/imported-products/single-product.php:99
+#, php-format
+msgid "Default Category %1$s"
+msgstr ""
+
+#: templates/admin/imported-products/single-product.php:108
+msgid "Basic Information"
+msgstr ""
+
+#: templates/admin/imported-products/single-product.php:117
+msgid "Click to view the product"
+msgstr ""
+
+#: templates/admin/imported-products/single-product.php:125
+msgid "Original Price"
+msgstr ""
+
+#: templates/admin/imported-products/single-product.php:134
+msgid "Added On"
+msgstr ""
+
+#: templates/admin/imported-products/single-product.php:143
+msgid "Scheduled"
+msgstr ""
+
+#: templates/admin/imported-products/single-product.php:144
+msgid "Yes"
+msgstr ""
+
+#: templates/admin/imported-products/single-product.php:144
+msgid "No"
+msgstr ""
+
+#: templates/admin/imported-products/single-product.php:152
+msgid "Rating"
+msgstr ""
+
+#: templates/admin/imported-products/single-product.php:153
+msgid "Out of 5"
+msgstr ""
+
+#: templates/admin/imported-products/single-product.php:187
+msgid "External URL:"
+msgstr ""
+
+#: templates/admin/imported-products/single-product.php:188
+msgid "Click to view"
+msgstr ""
+
+#: templates/admin/imported-products/single-product.php:201
+msgid ""
+"There are no images available for this product. If you have disabled the "
+"option to import the images, you can enable this option and import the "
+"product again. Alternatively, you can enable image sync on publish. This "
+"will fetch and import the images after you click the publish button."
+msgstr ""
+
+#: templates/admin/imported-products/single-product.php:251
+#: templates/admin/search-import/search-results.php:57
+#: templates/admin/tabs-content/aliexpress.php:45
+#: templates/admin/tabs-content/aliexpress.php:316
+#: templates/admin/tabs-content/aliexpress.php:365
+msgid "Price"
+msgstr ""
+
+#: templates/admin/imported-products/single-product.php:261
+msgid "SKU"
+msgstr ""
+
+#: templates/admin/imported-products/single-product.php:267
+msgid "Discounted Price"
+msgstr ""
+
+#: templates/admin/imported-products/single-product.php:277
+msgid "Quantity"
+msgstr ""
+
+#: templates/admin/imported-products/single-product.php:328
+msgid ""
+"There are no variations available for this product. If you have disabled the "
+"option to import the variations, you can enable this option and import the "
+"product again. Alternatively, you can enable the variation sync on publish. "
+"This will fetch and import the variations after you click the publish button."
+msgstr ""
+
+#: templates/admin/imported-products/single-product.php:378
+msgid ""
+"There are no reviews available for this product. If you have disabled the "
+"option to import the reviews, you can enable this option and import the "
+"product again. Alternatively, you can enable the review sync on publish. "
+"This will fetch and import the reviews after you click the publish button."
+msgstr ""
+
+#: templates/admin/imported-products/single-product.php:395
+msgid "Delete Product"
+msgstr ""
+
+#: templates/admin/imported-products/single-product.php:398
+msgid "Save and Publish"
+msgstr ""
+
+#: templates/admin/search-import/error-results.php:20
+msgid "Search Error"
+msgstr ""
+
+#: templates/admin/search-import/no-search-results.php:18
+#: templates/admin/search-import/query-is-empty.php:17
+msgid "Search Results"
+msgstr ""
+
+#: templates/admin/search-import/no-search-results.php:26
+msgid "No Results"
+msgstr ""
+
+#: templates/admin/search-import/no-search-results.php:28
+msgid ""
+"Nothing matched your search criteria. Please try searching again using "
+"different parameters."
+msgstr ""
+
+#: templates/admin/search-import/query-is-empty.php:25
+msgid "Nothing to Search!"
+msgstr ""
+
+#: templates/admin/search-import/query-is-empty.php:27
+msgid "Please enter either a search keyword or a product ID/URL to search."
+msgstr ""
+
+#: templates/admin/search-import/search-results.php:22
+#, php-format
+msgid "Search Results ( Total items found: %1$s )"
+msgstr ""
+
+#: templates/admin/search-import/search-results.php:45
+#, php-format
+msgid "-%1$s%% Off"
+msgstr ""
+
+#: templates/admin/search-import/search-results.php:78
+msgid "Imported"
+msgstr ""
+
+#: templates/admin/search-import/search-results.php:80
+msgid "Import"
+msgstr ""
+
+#: templates/admin/search-import/search-results.php:83
+#, php-format
+msgid "View on %1$s"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:17
+msgid "General"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:24
+msgid "Schedule"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:31
+msgid "Sync"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:38
+msgid "Shipping"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:52
+msgid "Stock Manager"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:66
+msgid "Search & Replace"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:73
+msgid "Misc"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:91
+msgid "AliExpress Automation"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:97
+msgid "Enable AliExpress Integration?"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:106
+msgid ""
+"Disabling this option will turn off most automatic tasks. You can still "
+"manually perform those."
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:115
+msgid "Use Official API?"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:123
+msgid ""
+"Enable this option to use your official API key and secret from AliExpress."
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:128
+msgid "API Key"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:140
+msgid "API Secret"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:146
+msgid "API secret is hidden for security. Enter a new value to change."
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:148
+msgid ""
+"<strong>Note:</strong> In order to use the official API, you need to create "
+"an app on AliExpress and enter your credentials here. Providing the wrong "
+"credentials will stop the plugin from working."
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:168
+msgid "Automatic Publish"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:173
+msgid "Publish Automatically"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:181
+msgid ""
+"Enabling this option will automatically publish the queued products based on "
+"the defined rules below."
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:190
+msgid "Publish Schedule"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:202
+msgid "Publish : "
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:209
+msgid "Product(s) Every"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:228
+msgid ""
+"Choose how often should the queued products be published automatically. Note "
+"that publishing a high number of products in a short time can result in a "
+"failure, if the host is not fast enough."
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:245
+msgid "Import Automatically"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:253
+msgid ""
+"Enabling this will automatically import products from AliExpress to your "
+"import queue based on below rules."
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:265
+msgid ""
+"To add custom rules for importing products automatically, navigate to "
+"\"DropshipExpress > Import Rules\""
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:287
+msgid ""
+"IMPORTANT NOTE: Enabling these options will override the changes you've "
+"manually made to the product, based on your selection."
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:295
+msgid "Sync on View"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:300
+msgid "On View"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:304
+#: templates/admin/tabs-content/aliexpress.php:353
+#: templates/admin/tabs-content/aliexpress.php:938
+msgid "Title"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:320
+#: templates/admin/tabs-content/aliexpress.php:369
+msgid "Stock"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:332
+msgid ""
+"1- Choose which of the above should be synchronized automatically each time "
+"a product is viewed by a logged-in user."
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:333
+msgid ""
+"2- <strong>Note: </strong>Enabling variation syncing might decrease the "
+"performance of your website."
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:344
+msgid "Sync on Publish"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:349
+#: templates/admin/tabs-content/misc.php:178
+msgid "On Publish"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:381
+msgid ""
+"Choose which of the above should be synchronized automatically when an "
+"imported product is published on your website."
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:399
+msgid "Automatic Shipment"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:408
+msgid ""
+"Enabling this option will try to automatically purchase the product from "
+"AliExpress and ship it to the customer. To use this feature, you need to "
+"sing up for an account at <a href=\"https://login.zinc.io/signup\" target="
+"\"_blank\">ZincApi.</a>"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:422
+msgid "ZincAPI Credentials"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:433
+msgid "Type a new token to change. Token is hidden due to security reasons."
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:435
+msgid ""
+"In order to integrate with your ZincAPI account, you need to enter your "
+"account's credentials above."
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:451
+msgid "AliExpress Credentials"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:456
+msgid "Username or E-mail"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:468
+#: templates/admin/tabs-content/misc.php:285
+msgid "Password"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:474
+msgid ""
+"Type a new password to change. Password is hidden due to security reasons."
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:476
+msgid ""
+"In order to place a purchase, you need to enter the login information for "
+"your AliExpress account. The orders will be placed using this account."
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:492
+msgid "Credit Card Credentials"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:499
+msgid "Name on the card"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:512
+msgid "Credit Card Number"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:525
+msgid "Expiry Year"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:534
+msgid "Expiry Month"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:543
+msgid "Security Code (CVV2)"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:554
+msgid ""
+"To automatically purchase the products from the source store, please enter "
+"your credit card details."
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:576
+msgid "Product Price"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:591
+msgid "Original Price (Not Recommended)"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:595
+msgid "Keep the original price. Useful for testing purposes."
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:615
+msgid "Apply Flat Rate"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:619
+msgid "Add a specific amount to each imported product's price."
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:627
+#: templates/admin/tabs-content/aliexpress.php:803
+msgid "Enter a number"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:647
+msgid "Apply Percentage"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:651
+msgid "Add a percentage of product's price to its final price."
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:659
+msgid "Value in %"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:676
+msgid "Currency"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:686
+#: templates/admin/tabs-content/aliexpress.php:1006
+msgid "Automatic"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:695
+msgid "Setting this to automatic will use the default currency of your store."
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:716
+msgid ""
+"In order for this feature to work, you need to enable stock management under "
+"\"WooCommerce > Settings > Products > Inventory\""
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:723
+msgid "Import Stock"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:731
+msgid "Enabling this will also import the stock count from AliExpress."
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:738
+msgid "Out of Stock"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:742
+msgid "Set to \"Out of Stock\""
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:743
+msgid "Set to \"Draft\""
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:744
+msgid "Move to trash"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:745
+msgid "Do nothing"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:748
+msgid "What to do when an imported product goes out of stock on AliExpress?"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:774
+msgid "Enable Review Import?"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:782
+msgid "Enabling this option will import the product reviews as comments."
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:795
+msgid "Review Limits"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:800
+msgid "Number of Reviews"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:805
+msgid "How many of the product's reviews should be imported?"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:820
+msgid "Import Settings"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:824
+msgid "Import Images"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:827
+msgid "Import and include the images from the original review."
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:832
+msgid "Translate Reviews"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:835
+msgid "Try to translate the reviews to English."
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:860
+msgid ""
+"This feature allows you to run a \"Search & Replace\" on the title and the "
+"content of products. You can use this to replace certain words and phrases, "
+"such as brand names."
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:867
+msgid "Enable"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:875
+msgid ""
+"Enabling this will run a \"Search & Replace\" on the imported products based "
+"on defined rules below."
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:888
+msgid "Search & Replace rules"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:893
+msgid "Rules"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:905
+msgid "Search for"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:920
+msgid "Replace with"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:934
+msgid "Apply to :"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:946
+#: templates/admin/tabs-content/aliexpress.php:1034
+msgid "Attributes"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:950
+#: templates/admin/tabs-content/aliexpress.php:1042
+msgid "Tags"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:967
+msgid "You can define multiple rules to be applied on imported products."
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:975
+msgid "New Rule"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:996
+msgid "Language"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:1017
+msgid ""
+"The language used to search and import products. If set to automatic, the "
+"store's default language will be used."
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:1026
+msgid "Import Content"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:1046
+msgid "Choose the contents that should be imported."
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:1055
+msgid "Check Duplicate Images"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:1063
+msgid ""
+"Enabling this option will check if the images already exist on the website. "
+"Recommended to save space."
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:1068
+msgid "Product Images"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:1072
+#: templates/admin/tabs-content/aliexpress.php:1086
+msgid "Download and Import"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:1073
+msgid "Use external URL"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:1074
+msgid "Do not import"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:1077
+msgid "Choose how to manage importing the product's images."
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:1082
+msgid "Description Images"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:1087
+msgid "Import as is"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:1088
+msgid "Drop"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:1091
+msgid "What to do with the images that are in the product description?"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:1100
+msgid "Default Product Type"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:1104
+msgid "Simple / Variable"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:1105
+msgid "External / Affiliate"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:1108
+msgid "Choose the default product type to be used for importing products."
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:1117
+msgid "Dynamic Categories"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:1125
+msgid ""
+"Selecting this will attempt to dynamically create a new category based on "
+"the product's information."
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:1129
+msgid "Default Category"
+msgstr ""
+
+#: templates/admin/tabs-content/aliexpress.php:1136
+msgid ""
+"Select a default category to publish the products in. This option only works "
+"if the Dynamic Category option is disabled, or if the plugin can't find a "
+"proper category to create."
+msgstr ""
+
+#: templates/admin/tabs-content/misc.php:26
+msgid "Permissions"
+msgstr ""
+
+#: templates/admin/tabs-content/misc.php:32
+msgid "Notifications"
+msgstr ""
+
+#: templates/admin/tabs-content/misc.php:38
+msgid "Proxy"
+msgstr ""
+
+#: templates/admin/tabs-content/misc.php:52
+msgid "Security"
+msgstr ""
+
+#: templates/admin/tabs-content/misc.php:57
+msgid "Import Access"
+msgstr ""
+
+#: templates/admin/tabs-content/misc.php:66
+msgid "Who can view and import products?"
+msgstr ""
+
+#: templates/admin/tabs-content/misc.php:71
+msgid "Publish Access"
+msgstr ""
+
+#: templates/admin/tabs-content/misc.php:80
+msgid "Who can publish or delete the imported products?"
+msgstr ""
+
+#: templates/admin/tabs-content/misc.php:85
+msgid "Automation Access"
+msgstr ""
+
+#: templates/admin/tabs-content/misc.php:94
+msgid "Who can define rules to automatically import and publish products?"
+msgstr ""
+
+#: templates/admin/tabs-content/misc.php:99
+msgid "Log Access"
+msgstr ""
+
+#: templates/admin/tabs-content/misc.php:108
+msgid ""
+"Who can view the plugin's logs? Log file might contain sensitive information."
+msgstr ""
+
+#: templates/admin/tabs-content/misc.php:126
+msgid "Mail Notifications"
+msgstr ""
+
+#: templates/admin/tabs-content/misc.php:132
+msgid "Enable Notifications?"
+msgstr ""
+
+#: templates/admin/tabs-content/misc.php:140
+msgid ""
+"Disabling this will disable all the notification regardless of their "
+"individual settings."
+msgstr ""
+
+#: templates/admin/tabs-content/misc.php:147
+msgid "Email Address"
+msgstr ""
+
+#: templates/admin/tabs-content/misc.php:150
+msgid ""
+"Enter an email address to receive the notifications. If left blank, the "
+"default admin's email address will be used."
+msgstr ""
+
+#: templates/admin/tabs-content/misc.php:160
+msgid "When to send E-Mail"
+msgstr ""
+
+#: templates/admin/tabs-content/misc.php:165
+msgid "On Import"
+msgstr ""
+
+#: templates/admin/tabs-content/misc.php:173
+msgid "Notify me whenever a new product is imported to your website."
+msgstr ""
+
+#: templates/admin/tabs-content/misc.php:186
+msgid "Notify me whenever a new product is published on your website."
+msgstr ""
+
+#: templates/admin/tabs-content/misc.php:191
+msgid "On Update"
+msgstr ""
+
+#: templates/admin/tabs-content/misc.php:199
+msgid "Notify me whenever a product is automatically updated."
+msgstr ""
+
+#: templates/admin/tabs-content/misc.php:204
+msgid "On Order"
+msgstr ""
+
+#: templates/admin/tabs-content/misc.php:212
+msgid ""
+"Notify me whenever a product is automatically purchased via the order API."
+msgstr ""
+
+#: templates/admin/tabs-content/misc.php:217
+msgid "On Order Update"
+msgstr ""
+
+#: templates/admin/tabs-content/misc.php:225
+msgid ""
+"Notify me whenever the status of a purchased product is updated via the "
+"order API."
+msgstr ""
+
+#: templates/admin/tabs-content/misc.php:242
+msgid "Proxy Settings"
+msgstr ""
+
+#: templates/admin/tabs-content/misc.php:248
+msgid "Enable Proxy?"
+msgstr ""
+
+#: templates/admin/tabs-content/misc.php:256
+msgid ""
+"You can enable this option to use a proxy for connecting to the retailer "
+"stores. This might be helpful if you are using a shared ip."
+msgstr ""
+
+#: templates/admin/tabs-content/misc.php:266
+msgid "Proxy Credentials"
+msgstr ""
+
+#: templates/admin/tabs-content/misc.php:271
+msgid "Domain"
+msgstr ""
+
+#: templates/admin/tabs-content/misc.php:278
+msgid "Username"
+msgstr ""
+
+#: templates/admin/tabs-content/misc.php:288
+msgid "Enter your proxy credentials. Use HTTPS proxies only."
+msgstr ""
+
+#: templates/admin/tabs-content/walmart.php:9
+msgid ""
+"Support for Wallmart will be added soon. Be sure to always update the plugin "
+"to be the first to receive the new features."
+msgstr ""

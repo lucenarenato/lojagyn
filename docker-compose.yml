@@ -1,0 +1,81 @@
+version: '2'
+
+services:
+  data:
+   image: busybox
+   user: $UID
+   volumes:
+     - ./src:/var/www/html/:z
+
+  nginx:
+    #image: once-we-discuss-what-registry-service-to-use
+    build:
+      context: .
+      dockerfile: docker/nginx/Dockerfile
+    ports:
+      - "8080:80"
+    volumes:
+      - ./docker/config/nginx.conf:/etc/nginx/nginx.conf:ro
+#      - ./scraper:/var/www/html/:z
+    volumes_from:
+      - data
+    depends_on:
+      - wordpress
+    networks: # Makes the container available on an internal Docker network.
+    - wp_network # Name of the internal Docker network.
+
+  wordpress:
+    build:
+      context: .
+      dockerfile: docker/wordpress/Dockerfile
+    user: $UID
+    ports:
+      - "9000"
+    depends_on:
+      - mysql
+    volumes_from:
+      - data
+    volumes: 
+      - ./uploads.ini:/usr/local/etc/php/conf.d/uploads.ini      
+      - ./00-ioncube-loader-7.4.ini:/usr/local/etc/php/conf.d/00-ioncube-loader-7.4.ini
+    environment:
+      WORDPRESS_DB_HOST: mysql
+      WORDPRESS_DB_USER: root
+      WORDPRESS_DB_PASSWORD: Toor95612612
+    networks: # Makes the container available on an internal Docker network.
+    - wp_network # Name of the internal Docker network.
+
+  mysql:
+    image: mysql:5.7
+    #restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: Toor95612612
+    volumes:
+      - ./docker/mysql/data:/var/lib/mysql
+    networks: # Makes the container available on an internal Docker network.
+    - wp_network # Name of the internal Docker network.
+
+  phpmyadmin: # Name of the service (phpMyAdmin container for working with WordPress databases).
+    # container_name: phpmyadmin # Give a name to the container providing phpMyAdmin.
+    image: phpmyadmin/phpmyadmin:latest # Define the image that will be pulled and run as a container.
+    depends_on: # Creates a dependency to other services.
+      - mysql # Name of the service that provides MySQL for a WordPress site.
+    restart: unless-stopped # Container will always restart.
+    ports: # Expose ports on the container.
+      - 8181:80 # Port-forwarding. <host_port>:<container_port>
+    environment:
+      PMA_HOST: mysql # The name of the database service.
+      MYSQL_ROOT_PASSWORD: Toor95612612 # The password for root.
+    networks: # Makes the container available on an internal Docker network.
+    - wp_network # Name of the internal Docker network.
+
+#  composer:
+#    image: composer
+#    user: $UID
+#    volumes:
+#      - $PWD/scraper:/app
+#    command: composer install --ignore-platform-reqs
+
+networks: # Create an internal Docker network.
+  wp_network: # Name of the internal Docker network.
+    driver: bridge
