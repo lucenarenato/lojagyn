@@ -1,0 +1,370 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Goya\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-14 22:35-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Loco-Version: 2.3.1; wp-5.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _n;_e;__;esc_html_e;esc_attr_e;esc_html__;esc_attr_x;"
+"esc_attr__;_nx\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+"X-Poedit-SearchPathExcluded-1: inc/admin\n"
+"X-Poedit-SearchPathExcluded-2: inc/merlin\n"
+"X-Poedit-SearchPathExcluded-3: inc/wp3menu.php\n"
+"X-Poedit-SearchPathExcluded-4: inc/woocommerce/category-image.php\n"
+"X-Poedit-SearchPathExcluded-5: inc/sidebar.php\n"
+"X-Poedit-SearchPathExcluded-6: woocommerce\n"
+"X-Poedit-SearchPathExcluded-7: inc/misc.php\n"
+"X-Poedit-SearchPathExcluded-8: inc/mega-menu.php\n"
+"X-Poedit-SearchPathExcluded-9: inc/menu-cache.php\n"
+"X-Poedit-SearchPathExcluded-10: inc/woocommerce/wc-variation-gallery.php\n"
+"X-Poedit-SearchPathExcluded-11: inc/templates/header/header-product-bar."
+"php\n"
+
+#: 404.php:17
+msgid "Oops! Page not found."
+msgstr ""
+
+#: 404.php:18
+msgid "We are sorry, but the page you're looking for cannot be found."
+msgstr ""
+
+#: 404.php:19
+msgid "Back to homepage"
+msgstr ""
+
+#: archive-portfolio.php:67 index.php:91
+msgid "Search Results for: "
+msgstr ""
+
+#: archive-portfolio.php:70
+msgid "Portfolio"
+msgstr ""
+
+#: archive-portfolio.php:133 inc/frontend/entry.php:150
+#: inc/woocommerce/wc-functions.php:1666
+msgid "Load More"
+msgstr ""
+
+#: archive-portfolio.php:134
+msgid "All items loaded"
+msgstr ""
+
+#: comments.php:23
+msgid "Leave a comment"
+msgstr ""
+
+#: comments.php:25
+#, php-format
+msgid "%1$s reply on &ldquo;%2$s&rdquo;"
+msgstr ""
+
+#: comments.php:74
+msgid "Comments are closed"
+msgstr ""
+
+#: inc/ajax.php:199
+msgid "View All"
+msgstr ""
+
+#: inc/ajax.php:220
+msgid "No results"
+msgstr ""
+
+#: inc/custom-styles.php:893
+msgid "Post Author"
+msgstr ""
+
+#: inc/custom-styles.php:896
+msgid "Required field"
+msgstr ""
+
+#: inc/custom-styles.php:899
+msgid "Featured"
+msgstr ""
+
+#: inc/frontend/entry.php:120 inc/frontend/entry.php:496
+#: inc/woocommerce/wc-functions.php:136
+msgid "All"
+msgstr ""
+
+#: inc/frontend/entry.php:139 inc/woocommerce/wc-functions.php:26
+msgid "Prev"
+msgstr ""
+
+#: inc/frontend/entry.php:140 inc/frontend/entry.php:212
+#: inc/woocommerce/wc-functions.php:27
+msgid "Next"
+msgstr ""
+
+#: inc/frontend/entry.php:151
+msgid "All posts loaded."
+msgstr ""
+
+#: inc/frontend/entry.php:194
+msgid "Previous"
+msgstr ""
+
+#: inc/frontend/entry.php:500
+msgid "Share"
+msgstr ""
+
+#: inc/frontend/entry.php:509
+msgid "Min Price:"
+msgstr ""
+
+#: inc/frontend/entry.php:513
+msgid "Max Price:"
+msgstr ""
+
+#: inc/frontend/entry.php:517
+msgid "Search For:"
+msgstr ""
+
+#: inc/frontend/entry.php:521
+msgid "Order By:"
+msgstr ""
+
+#: inc/frontend/entry.php:526
+msgid "popularity"
+msgstr ""
+
+#: inc/frontend/entry.php:527
+msgid "rating"
+msgstr ""
+
+#: inc/frontend/entry.php:528
+msgid "latest"
+msgstr ""
+
+#: inc/frontend/entry.php:529
+msgid "price low to high"
+msgstr ""
+
+#: inc/frontend/entry.php:530
+msgid "price high to low"
+msgstr ""
+
+#: inc/frontend/footer.php:195
+msgid "Scroll To Top"
+msgstr ""
+
+#: inc/frontend/header.php:502 inc/templates/header-parts/hamburger.php:10
+msgid "Menu"
+msgstr ""
+
+#: inc/frontend/header.php:816 inc/frontend/header.php:829
+#: inc/frontend/panels.php:93 inc/frontend/panels.php:154
+#: inc/templates/header-parts/campaigns.php:59
+msgid "Close"
+msgstr ""
+
+#: inc/frontend/header.php:963 inc/woocommerce/wc-elements.php:30
+#: inc/woocommerce/wc-functions.php:627
+msgid "Login"
+msgstr ""
+
+#: inc/frontend/header.php:965 inc/woocommerce/wc-elements.php:19
+msgid "My Account"
+msgstr ""
+
+#: inc/frontend/header.php:967
+msgid "Logout"
+msgstr ""
+
+#: inc/frontend/panels.php:92 inc/woocommerce/wc-elements.php:168
+#: inc/woocommerce/wc-elements.php:169
+msgid "Cart"
+msgstr ""
+
+#: inc/frontend/panels.php:99
+msgid "Updating&hellip;"
+msgstr ""
+
+#: inc/frontend/panels.php:153
+msgid "Search"
+msgstr ""
+
+#: inc/script-calls.php:141
+msgid "Back"
+msgstr ""
+
+#: inc/script-calls.php:142
+msgid "View cart"
+msgstr ""
+
+#: inc/switchers.php:30 inc/switchers.php:47
+msgid "Currency"
+msgstr ""
+
+#: inc/switchers.php:68
+msgid "Language"
+msgstr ""
+
+#: inc/switchers.php:145
+msgid "Add Languages"
+msgstr ""
+
+#: inc/templates/header/mobile-menu.php:58
+msgid "No menu assigned"
+msgstr ""
+
+#: inc/templates/not-found.php:5
+msgid "Sorry, but nothing matched your search terms."
+msgstr ""
+
+#: inc/templates/not-found.php:6
+msgid "Please try again with some different keywords."
+msgstr ""
+
+#: inc/templates/not-found.php:12
+msgid "It seems we can't find what you're looking for."
+msgstr ""
+
+#: inc/templates/portfolio/portfolio-meta-single.php:10
+msgid "Author"
+msgstr ""
+
+#: inc/templates/portfolio/portfolio-meta-single.php:13
+msgid "Date"
+msgstr ""
+
+#: inc/templates/portfolio/portfolio-meta-single.php:16
+#: inc/templates/portfolio/portfolio-meta-single.php:18
+msgid "Website"
+msgstr ""
+
+#: inc/templates/portfolio/related-portfolio.php:37
+msgid "Related Items"
+msgstr ""
+
+#: inc/templates/postbit/post-article.php:110 page.php:133
+msgid "Page"
+msgstr ""
+
+#: inc/templates/postbit/post-article.php:110 page.php:133
+msgid "Pages:"
+msgstr ""
+
+#: inc/templates/postbit/post-article.php:129
+msgid "Posted in:"
+msgstr ""
+
+#: inc/templates/postbit/post-article.php:133
+msgid "Tagged:"
+msgstr ""
+
+#: inc/templates/postbit/post-meta-single.php:12
+#: inc/templates/postbit/post-meta.php:16
+msgid "By"
+msgstr ""
+
+#: inc/templates/postbit/post-meta-single.php:12
+#: inc/templates/postbit/post-meta.php:16
+msgid "on"
+msgstr ""
+
+#: inc/templates/postbit/post-related.php:19
+msgid "Related Posts"
+msgstr ""
+
+#: inc/templates/postbit/post-tags.php:16
+msgid "Tags:"
+msgstr ""
+
+#: inc/woocommerce/wc-elements.php:55 inc/woocommerce/wc-elements.php:100
+msgid "Wishlist"
+msgstr ""
+
+#: inc/woocommerce/wc-functions.php:55
+msgid "All Categories"
+msgstr ""
+
+#: inc/woocommerce/wc-functions.php:259 inc/woocommerce/wc-functions.php:264
+#: inc/woocommerce/wc-functions.php:316
+msgid "Filters"
+msgstr ""
+
+#: inc/woocommerce/wc-functions.php:317
+msgid "Done"
+msgstr ""
+
+#: inc/woocommerce/wc-functions.php:589
+msgid "Back to Shop"
+msgstr ""
+
+#: inc/woocommerce/wc-functions.php:589 inc/woocommerce/wc-functions.php:598
+msgid "Continue Shopping"
+msgstr ""
+
+#: inc/woocommerce/wc-functions.php:607
+msgid "Back to Cart"
+msgstr ""
+
+#: inc/woocommerce/wc-functions.php:627
+msgid "Already a member?"
+msgstr ""
+
+#: inc/woocommerce/wc-functions.php:631
+msgid "Not a member?"
+msgstr ""
+
+#: inc/woocommerce/wc-functions.php:631
+msgid "Register"
+msgstr ""
+
+#: inc/woocommerce/wc-functions.php:656
+msgid "Please fill in the required fields"
+msgstr ""
+
+#: inc/woocommerce/wc-functions.php:695 inc/woocommerce/wc-functions.php:714
+msgid "Out of Stock"
+msgstr ""
+
+#: inc/woocommerce/wc-functions.php:739
+msgid "New"
+msgstr ""
+
+#: inc/woocommerce/wc-functions.php:770 inc/woocommerce/wc-functions.php:783
+msgid "Off"
+msgstr ""
+
+#: inc/woocommerce/wc-functions.php:788
+msgid "Sale"
+msgstr ""
+
+#: inc/woocommerce/wc-functions.php:954
+#, php-format
+msgid "%d Product"
+msgstr ""
+
+#: inc/woocommerce/wc-functions.php:1485 inc/woocommerce/wc-functions.php:1510
+msgid "Description"
+msgstr ""
+
+#: inc/woocommerce/wc-functions.php:1591
+msgid "Watch Video"
+msgstr ""
+
+#: inc/woocommerce/wc-functions.php:1649
+msgid "Quick View"
+msgstr ""
+
+#: inc/woocommerce/wc-functions.php:1667
+msgid "All products loaded."
+msgstr ""
+
+#: searchform.php:4
+msgid "Search &hellip;"
+msgstr ""

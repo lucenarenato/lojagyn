@@ -1,0 +1,246 @@
+@font-face {
+  font-family: 'et-icon';
+  src:
+    url('fonts/et-icon.ttf?h4xavc') format('truetype'),
+    url('fonts/et-icon.woff?h4xavc') format('woff'),
+    url('fonts/et-icon.svg?h4xavc#et-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.et-icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'et-icon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.et-sort:before {
+  content: "\e942";
+}
+.et-grid-small:before {
+  content: "\e941";
+}
+.et-star:before {
+  content: "\e92e";
+}
+.et-bookmark:before {
+  content: "\e940";
+}
+.et-grid:before {
+  content: "\e900";
+}
+.et-list:before {
+  content: "\e901";
+}
+.et-minus:before {
+  content: "\e914";
+}
+.et-sliders:before {
+  content: "\e915";
+}
+.et-maximize-2:before {
+  content: "\e917";
+}
+.et-maximize:before {
+  content: "\e918";
+}
+.et-user:before {
+  content: "\e919";
+}
+.et-shopping-bag:before {
+  content: "\e91a";
+}
+.et-shopping-cart:before {
+  content: "\e91b";
+}
+.et-share:before {
+  content: "\e91d";
+}
+.et-search:before {
+  content: "\e91e";
+}
+.et-message-square:before {
+  content: "\e91f";
+}
+.et-plus:before {
+  content: "\e920";
+}
+.et-menu:before {
+  content: "\e921";
+}
+.et-tag:before {
+  content: "\e922";
+}
+.et-chevron-right:before {
+  content: "\e923";
+}
+.et-chevron-left:before {
+  content: "\e924";
+}
+.et-chevron-down:before {
+  content: "\e925";
+}
+.et-chevron-up:before {
+  content: "\e926";
+}
+.et-x-circle:before {
+  content: "\e927";
+}
+.et-x:before {
+  content: "\e928";
+}
+.et-alert-triangle:before {
+  content: "\e929";
+}
+.et-help-circle:before {
+  content: "\e92a";
+}
+.et-alert-circle:before {
+  content: "\e92b";
+}
+.et-check:before {
+  content: "\e92c";
+}
+.et-map-pin:before {
+  content: "\e92d";
+}
+.et-download:before {
+  content: "\e92f";
+}
+.et-arrow-right:before {
+  content: "\e932";
+}
+.et-arrow-left:before {
+  content: "\e933";
+}
+.et-arrow-down:before {
+  content: "\e934";
+}
+.et-arrow-up:before {
+  content: "\e935";
+}
+.et-gift:before {
+  content: "\e938";
+}
+.et-log-out:before {
+  content: "\e936";
+}
+.et-log-in:before {
+  content: "\e937";
+}
+.et-calendar:before {
+  content: "\e93b";
+}
+.et-clock:before {
+  content: "\e93a";
+}
+.et-refresh-cw:before {
+  content: "\e930";
+}
+.et-link:before {
+  content: "\e93c";
+}
+.et-trash:before {
+  content: "\e93d";
+}
+.et-credit-card:before {
+  content: "\e93e";
+}
+.et-play:before {
+  content: "\e916";
+}
+.et-package:before {
+  content: "\e93f";
+}
+.et-zoom-out:before {
+  content: "\e931";
+}
+.et-zoom-in:before {
+  content: "\e939";
+}
+.et-tiktok:before {
+  content: "\e944";
+}
+.et-spotify:before {
+  content: "\e948";
+}
+.et-map-marker:before {
+  content: "\e947";
+}
+.et-heart-fill:before {
+  content: "\e91c";
+}
+.et-heart:before {
+  content: "\e946";
+}
+.et-phone:before {
+  content: "\e945";
+}
+.et-telegram:before {
+  content: "\e943";
+}
+.et-twitter:before {
+  content: "\e902";
+}
+.et-facebook:before {
+  content: "\e903";
+}
+.et-pinterest:before {
+  content: "\e904";
+}
+.et-instagram:before {
+  content: "\e905";
+}
+.et-linkedin:before {
+  content: "\e906";
+}
+.et-google:before {
+  content: "\e907";
+}
+.et-flickr:before {
+  content: "\e908";
+}
+.et-snapchat:before {
+  content: "\e909";
+}
+.et-behance:before {
+  content: "\e90a";
+}
+.et-dribbble:before {
+  content: "\e90b";
+}
+.et-tumblr:before {
+  content: "\e90c";
+}
+.et-vimeo:before {
+  content: "\e90d";
+}
+.et-vk:before {
+  content: "\e90e";
+}
+.et-youtube:before {
+  content: "\e90f";
+}
+.et-weibo:before {
+  content: "\e910";
+}
+.et-whatsapp:before {
+  content: "\e911";
+}
+.et-soundcloud:before {
+  content: "\e912";
+}
+.et-email:before,
+.et-envelope-o:before {
+  content: "\e913";
+}

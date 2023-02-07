@@ -1,0 +1,40 @@
+<wpml-config>
+	<admin-texts>
+		<key name="theme_mods_goya">
+			<key name="header_custom_text" />
+			<key name="header_custom_text2" />
+			<key name="header_custom_text3" />
+			<key name="top_bar_text" />
+			<key name="top_bar_text2" />
+			<key name="top_bar_text3" />
+			<key name="menu_mobile_custom_text" />
+			<key name="menu_mobile_custom_text2" />
+			<key name="menu_mobile_custom_text3" />
+			<key name="campaign_bar_content" />
+			<key name="campaign_bar_items" />
+			<key name="footer_middle_content" />
+			<key name="footer_bar_copyright" />
+			<key name="footer_bar_custom_text" />
+			<key name="footer_bar_custom_text2" />
+			<key name="popup_content" />
+			<key name="shop_header_description" />
+			<key name="progress_bar_msg" />
+			<key name="progress_bar_success_msg" />
+		</key>
+	</admin-texts>
+	<shortcodes>
+		<shortcode>
+			<tag>et_button</tag>
+			<attributes>
+				<attribute>title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>et_banner</tag>
+			<attributes>
+				<attribute>title</attribute>
+				<attribute>subtitle</attribute>
+			</attributes>
+		</shortcode>
+  </shortcodes>
+</wpml-config>

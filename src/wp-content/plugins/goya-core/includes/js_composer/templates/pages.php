@@ -1,0 +1,232 @@
+<?php 
+
+function goya_vc_templates_pages($template_list) {
+	/* Static Pages */
+	$template_list['page_01'] = array(
+		'name' => esc_html__( 'About', 'goya-core' ) . ' - 01',
+		'thumbnail' => GOYA_THEME_URI . "/assets/img/visual-composer/templates/misc/about-a1.jpg",
+		'cat' => array( 'page' ),
+		'sc' => '[vc_row et_full_width="true" et_row_padding="true" full_height="yes" columns_placement="stretch" equal_height="yes" content_placement="middle" css=".vc_custom_1579973351197{padding-top: 80px !important;padding-bottom: 80px !important;background: #f4f4f4 url(https://goyacdn.everthemes.com/demo-fashion/wp-content/uploads/sites/3/2020/01/banner-cashmere.jpg?id=3923) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}" el_class="video-bg-row"][vc_column][vc_row_inner et_max_width="" equal_height="yes" content_placement="middle" css=".vc_custom_1562734895463{background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}"][vc_column_inner width="1/2" css=".vc_custom_1562725835995{padding-top: 20% !important;padding-right: 20% !important;padding-bottom: 20% !important;padding-left: 20% !important;}"][vc_column_text animation="animation bottom-to-top" css=".vc_custom_1578533136965{margin-top: 30px !important;}"]
+			<h1 style="text-align: center;">About Us</h1>
+			<blockquote>
+			<p style="text-align: center;">"Air winged, above, seed whales face so void which so. Fish bring light blessed, midst light set and us rule said dominion"</p>
+			</blockquote>
+			[/vc_column_text][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row et_full_width="true" et_row_padding="true" css=".vc_custom_1579745009383{padding-top: 60px !important;padding-bottom: 60px !important;}"][vc_column][vc_row_inner content_placement="middle" el_class="align-center"][vc_column_inner animation="animation left-to-right" offset="vc_col-md-7"][et_video_lightbox style="lightbox-image" box_shadow="large-shadow" video="https://youtu.be/1KahlicghaE" border_radius="3px" image="3832"][/vc_column_inner][vc_column_inner animation="animation right-to-left" offset="vc_col-md-5" css=".vc_custom_1578532669392{padding-top: 40px !important;}"][vc_column_text]
+			<h5 class="fancy-title">Our History</h5>
+			<h2>Setting Industry Standards</h2>
+			Portland meggings chartreuse plaid palo santo, gluten-free ramps iPhone etsy salvia cray kombucha copper mug single-origin coffee.[/vc_column_text][et_counter style="counter-left" counter_color="dark" counter="12346" title="Customers" description="Satisfied customers worldwide and growing"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row et_full_width="true" et_row_padding="true" css=".vc_custom_1579745131496{padding-top: 80px !important;padding-bottom: 45px !important;background-color: #f2f2f2 !important;}"][vc_column][vc_row_inner et_column_align="align-center" equal_height="yes" el_class="align-center"][vc_column_inner animation="animation bottom-to-top" offset="vc_col-lg-5"][vc_column_text]
+			<h5 class="fancy-title" style="text-align: center;">Est. 2017</h5>
+			<h2 style="text-align: center;">Our Story</h2>
+			[/vc_column_text][/vc_column_inner][/vc_row_inner][vc_row_inner et_column_align="align-center" equal_height="yes" el_class="align-center"][vc_column_inner animation="animation bottom-to-top" offset="vc_col-lg-4"][vc_column_text]Messenger bag man braid waistcoat neutra 8-bit. Chartreuse disrupt put a bird on it quinoa jianbing. Paleo drinking vinegar brunch hashtag, skateboard cold-pressed pour-over tilde cliche. Craft beer salvia occupy retro farm-to-table cronut cardigan, gastropub keytar flannel.
+
+			Unicorn jean shorts quinoa authentic cronut tilde twee YOLO, offal aesthetic yuccie iPhone truffaut seitan. Craft beer wayfarers lumbersexual DIY succulents, helvetica vexillologist next level woke hoodie keffiyeh tumblr schlitz chambray typewriter.
+
+			Hexagon brunch subway tile keffiyeh.[/vc_column_text][/vc_column_inner][vc_column_inner animation="animation bottom-to-top" offset="vc_col-lg-4"][vc_column_text]Synth ethical biodiesel poutine. Bitters beard salvia lo-fi. Palo santo literally plaid edison bulb, pitchfork drinking vinegar authentic pabst street art subway tile craft beer single-origin coffee shaman dreamcatcher.
+
+			Williamsburg sriracha portland, microdosing asymmetrical pork belly la croix 3 wolf moon umami.
+
+			Four dollar toast truffaut fashion axe, lomo plaid meh PBR&amp;B scenester austin paleo thundercats heirloom knausgaard farm-to-table.[/vc_column_text][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row et_full_width="true" et_row_padding="true" css=".vc_custom_1579114611577{padding-top: 60px !important;padding-bottom: 60px !important;}"][vc_column][vc_row_inner content_placement="middle" el_class="align-center"][vc_column_inner el_class="small-order-2 medium-order-1" animation="animation left-to-right" offset="vc_col-md-5" css=".vc_custom_1578532746105{padding-top: 40px !important;}"][vc_column_text]
+			<h5 class="fancy-title">Our Future</h5>
+			<h2>Growing Fast</h2>
+			Thundercats art party edison bulb authentic roof party taiyaki synth gluten-free squid tumeric retro iPhone etsy.[/vc_column_text][et_counter style="counter-left" counter_color="dark" counter="107" title="Offices" description="Regional offices around the world"][/vc_column_inner][vc_column_inner el_class="small-order-1 medium-order-2" offset="vc_col-md-7"][et_image retina="retina_size" animation="animation right-to-left" image="3866" img_size="large"][/et_image][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row et_full_width="true" css=".vc_custom_1579114943204{padding-top: 80px !important;padding-bottom: 60px !important;background-color: #f6f6f6 !important;}"][vc_column][vc_row_inner et_column_align="align-center" css=".vc_custom_1578532916555{margin-bottom: 25px !important;}"][vc_column_inner animation="animation bottom-to-top" offset="vc_col-lg-6"][vc_column_text]
+			<h5 class="fancy-title" style="text-align: center;">Core Values</h5>
+			<p style="text-align: center;">Humblebrag gochujang pabst, master cleanse franzen vexillologist.</p>
+			[/vc_column_text][/vc_column_inner][/vc_row_inner][vc_row_inner et_column_align="align-center"][vc_column_inner animation="animation bottom-to-top" offset="vc_col-lg-8"][et_icon_holder center="true"][et_iconbox icon_pixeden="pe-7s-trash" layout="centered" animation="" title="Cruises &amp; Water Tours"]Sustainable direct trade paleo semiotics.[/et_iconbox][et_iconbox icon_pixeden="pe-7s-signal" layout="centered" animation="" title="Night Life"]Master cleanse franzen a bird brooklyn.[/et_iconbox][et_iconbox icon_pixeden="pe-7s-share" layout="centered" animation="" title="Hiking"]Gluten-free ramps iPhone etsy coffee.[/et_iconbox][/et_icon_holder][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row css=".vc_custom_1579114565104{padding-top: 60px !important;padding-bottom: 60px !important;}"][vc_column width="1/4"][vc_column_text animation="animation left-to-right"]
+			<h5 class="fancy-title">Founders</h5>
+			<h2>Key People</h2>
+			Yielding fowl their brought is own day place fruit creature our day lesser cant bring hath after.
+
+			Divide there forth fruitful.[/vc_column_text][/vc_column][vc_column width="1/4"][et_team_member image="3769" name="John Nicholson" position="Developer" facebook="#" twitter="#" pinterest="#" linkedin="#"][/vc_column][vc_column width="1/4"][et_team_member image="3679" name="Sandra Monroe" position="Marketing" facebook="#" twitter="#" pinterest="#" linkedin="#"][/vc_column][vc_column width="1/4"][et_team_member image="3704" name="Denisse MacDonnell" position="CEO" facebook="#" twitter="#" pinterest="#" linkedin="#"][/vc_column][/vc_row]',
+	);
+	$template_list['page_02'] = array(
+		'name' => esc_html__( 'About', 'goya-core' ) . ' - 02',
+		'thumbnail' => GOYA_THEME_URI . "/assets/img/visual-composer/templates/misc/about-a2.jpg",
+		'cat' => array( 'page' ),
+		'sc' => '[vc_row et_full_width="true" et_row_padding="true" et_column_align="align-center" parallax="content-moving"][vc_column et_column_color="et-light-column"][et_banner image_type="css" height="70" text_color_scheme="light" hover_effect="hover-zoom" title_size="xlarge" text_animation="et-fadeInUp" text_alignment="align_center" image_id="1603" title="About Us" subtitle="The Company" paragraph="Quisque tortor nulla, sollicitudin quis venenatis et, tincidunt placerat eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit."][/vc_column][/vc_row][vc_row et_column_align="align-center" css=".vc_custom_1579121915525{padding-top: 60px !important;padding-bottom: 35px !important;}"][vc_column animation="animation bottom-to-top" offset="vc_col-lg-8"][vc_row_inner et_column_align="align-center"][vc_column_inner][vc_column_text]
+			<h2>The Company</h2>
+			[/vc_column_text][vc_column_text]Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+			Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.[/vc_column_text][/vc_column_inner][/vc_row_inner][vc_row_inner et_column_align="align-center"][vc_column_inner width="1/3"][vc_column_text]
+			<h4 class="vc_custom_heading">Our Mission</h4>
+			[/vc_column_text][/vc_column_inner][vc_column_inner width="2/3"][vc_column_text]Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.[/vc_column_text][/vc_column_inner][/vc_row_inner][vc_row_inner et_column_align="align-center"][vc_column_inner width="1/3"][vc_column_text]
+			<h4 class="vc_custom_heading">Our Vision</h4>
+			[/vc_column_text][/vc_column_inner][vc_column_inner width="2/3"][vc_column_text]Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.[/vc_column_text][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row][vc_column][vc_row_inner][vc_column_inner animation="animation bottom-to-top"][et_image animation="animation bottom-to-top" alignment="aligncenter" image="875"][/et_image][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row et_column_align="align-center" css=".vc_custom_1579121928936{padding-top: 60px !important;padding-bottom: 60px !important;}"][vc_column offset="vc_col-lg-8"][vc_column_text]
+			<h2>The Team</h2>
+			[/vc_column_text][vc_column_text]Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.[/vc_column_text][vc_row_inner][vc_column_inner width="1/3"][et_team_member image="884" name="Chris Patterson" position="Market Research" facebook="#" twitter="#" pinterest="#"][/vc_column_inner][vc_column_inner width="1/3"][et_team_member image="885" name="Nicole Preston" position="Graphic Design" facebook="#" twitter="#" pinterest="#"][/vc_column_inner][vc_column_inner width="1/3"][et_team_member image="886" name="John Doe" facebook="#" twitter="#" pinterest="#" position="Business Development"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row]',
+	);
+	$template_list['page_03'] = array(
+		'name' => esc_html__( 'Contact', 'goya-core' ) . ' - 01',
+		'thumbnail' => GOYA_THEME_URI . "/assets/img/visual-composer/templates/misc/map-m1.jpg",
+		'cat' => array( 'page', 'maps' ),
+		'sc' => '[vc_row css=".vc_custom_1555526858206{padding-top: 80px !important;padding-bottom: 80px !important;}"][vc_column animation="animation bottom-to-top" offset="vc_col-md-offset-2 vc_col-md-10"][vc_column_text]
+			<h1>Get in Touch with Us</h1>
+			[/vc_column_text][vc_column_text el_class="preline-large" css=".vc_custom_1555544839304{margin-top: 10px !important;}"]
+			<h4>We’d love to hear from you.</h4>
+			[/vc_column_text][/vc_column][/vc_row][vc_row][vc_column][et_gmap_parent height="60" zoom="16" map_controls="zoomControl" map_style="grayscale" api_key="AIzaSyDDELFkxG462awQthGjwOCkFeBRlpFS6nM"][et_gmap latitude="40.704857" longitude="-74.014084" marker_title="Manhattan" marker_description="One Chase Manhattan Plaza
+			New York, NY, USA"][et_gmap latitude="40.703451" longitude="-74.009950" marker_title="Brooklyn(?)" marker_description="55 Water Street
+			55 Water St, New York, NY 10041, USA"][/et_gmap_parent][/vc_column][/vc_row][vc_row css=".vc_custom_1555527600355{padding-top: 80px !important;padding-bottom: 80px !important;}"][vc_column animation="animation left-to-right" css=".vc_custom_1570654913791{padding-right: 20% !important;border-radius: 4px !important;}" offset="vc_col-md-offset-2 vc_col-md-4"][vc_column_text css=".vc_custom_1570654947552{padding: 10% !important;background-color: #f2f2f2 !important;border-radius: 3px !important;}"]
+			<h4>Visit Us</h4>
+			One Chase Manhattan Plaza
+			New York, NY 10005, USA
+			+1 554 883 2032
+			<h4>Careers</h4>
+			Artisan shabby chic kinfolk deep v, scenester 8-bit waistcoat tofu.
+			<a href="#">apply@example.com</a>
+			<h4>Get in Touch</h4>
+			Prism truffaut neutra blue bottle letterpress plaid church-key.
+			<a href="#">hello@example.com</a>[/vc_column_text][/vc_column][vc_column animation="animation bottom-to-top" offset="vc_col-md-5"][vc_column_text]
+			<h2>Send your questions</h2>
+			[/vc_column_text][vc_empty_space][ninja_form id="1"][/vc_column][/vc_row][vc_row et_full_width="true" et_row_padding="true" el_class="text-center" css=".vc_custom_1570549856919{padding-top: 100px !important;padding-bottom: 100px !important;background: #3f3d2f url(https://goyacdn.everthemes.com/demo-decor/wp-content/uploads/sites/2/2019/09/banner_knitted_chair.jpg?id=675) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}"][vc_column][et_button title="Lets work together" style="outlined" size="large" animation="animation bottom-to-top" color="white" border_radius="pill-radius" link="title:Lets%20Work%20Together||"][/vc_column][/vc_row]',
+	);
+	$template_list['page_04'] = array(
+		'name' => esc_html__( 'Contact', 'goya-core' ) . ' - 02',
+		'thumbnail' => GOYA_THEME_URI . "/assets/img/visual-composer/templates/misc/map-m2.jpg",
+		'cat' => array( 'page', 'maps' ),
+		'sc' => '[vc_row et_full_width="true" et_row_padding="true" full_height="yes" columns_placement="top" equal_height="yes" content_placement="top"][vc_column offset="vc_col-lg-6"][et_gmap_parent height="100" zoom="16" map_controls="zoomControl" map_style="grayscale" api_key="AIzaSyDDELFkxG462awQthGjwOCkFeBRlpFS6nM"][et_gmap latitude="40.704857" longitude="-74.014084" marker_title="Manhattan" marker_description="One Chase Manhattan Plaza
+		New York, NY, USA"][et_gmap latitude="40.703451" longitude="-74.009950" marker_title="Brooklyn(?)" marker_description="55 Water Street
+		55 Water St, New York, NY 10041, USA"][/et_gmap_parent][/vc_column][vc_column animation="animation bottom-to-top" offset="vc_col-lg-6" css=".vc_custom_1570855549259{padding-top: 120px !important;padding-right: 10% !important;padding-bottom: 35px !important;padding-left: 10% !important;}"][vc_row_inner et_max_width="" content_placement="middle"][vc_column_inner width="1/2"][vc_column_text css=".vc_custom_1570659822574{margin-bottom: 20px !important;padding-bottom: 20px !important;}"]
+					<h3>Visit Us</h3>
+					One Chase Manhattan Plaza
+					New York, NY 10005, USA
+					+1 554 883 2032[/vc_column_text][/vc_column_inner][vc_column_inner width="1/2"][vc_column_text]
+					<h3>Get in Touch</h3>
+					Prism truffaut neutra blue bottle letterpress plaid church-key.
+					<a href="#">hello@example.com</a>[/vc_column_text][/vc_column_inner][/vc_row_inner][ninja_form id="1"][/vc_column][/vc_row]',
+	);
+	$template_list['page_05'] = array(
+		'name' => esc_html__( 'Careers', 'goya-core' ) . ' - 01',
+		'thumbnail' => GOYA_THEME_URI . "/assets/img/visual-composer/templates/misc/careers-c1.jpg",
+		'cat' => array( 'page', 'about' ),
+		'sc' => '[vc_row et_full_width="true" et_row_padding="true" css=".vc_custom_1579727732729{padding-top: 100px !important;padding-bottom: 260px !important;background: #d7ab86 url(https://goyacdn.everthemes.com/demo-fashion/wp-content/uploads/sites/3/2019/04/smile.jpg?id=966) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}"][vc_column et_column_color="et-light-column"][vc_row_inner et_column_align="align-right"][vc_column_inner animation="animation bottom-to-top" offset="vc_col-lg-6 vc_col-md-8"][vc_empty_space height="100px"][vc_column_text css=".vc_custom_1578540290669{padding-right: 10% !important;padding-left: 10% !important;}"]
+			<h5 class="fancy-tag light-color">CAREERS</h5>
+			<h1>Want to work with us?</h1>
+			Nisi mauris et adipiscing. Aliquam class bibendum non mattis fusce cum mus quisque inceptos, viverra.[/vc_column_text][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row et_column_align="align-center" css=".vc_custom_1579116726734{margin-top: -200px !important;padding-top: 60px !important;padding-bottom: 20px !important;background-color: #ffffff !important;}"][vc_column animation="animation bottom-to-top" offset="vc_col-lg-6"][vc_row_inner][vc_column_inner][vc_column_text]
+			<h5 class="fancy-title">OUTSTANDING DESIGN</h5>
+			<h2>Taiyaki tote bag green juice, pork belly freegan narwhal.</h2>
+			[/vc_column_text][/vc_column_inner][/vc_row_inner][vc_row_inner][vc_column_inner width="1/2"][vc_column_text]Pinterest church-key unicorn tofu, cardigan knausgaard kogi drinking vinegar flexitarian readymade. Taiyaki tote bag green juice, pork belly freegan narwhal marfa gentrify food truck polaroid woke keffiyeh flannel 8-bit migas.[/vc_column_text][/vc_column_inner][vc_column_inner width="1/2"][vc_column_text]Organic palo santo flannel post-ironic locavore portland tumeric iceland typewriter cloud bread franzen blue bottle.[/vc_column_text][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row el_class="align-center" css=".vc_custom_1579116618404{padding-bottom: 35px !important;}"][vc_column animation="animation bottom-to-top" offset="vc_col-md-6"][et_testimonial_slider arrows="true" pagination="true" autoplay="true" autoplay_speed="2000"][et_testimonial quote="Salvia vaporware butcher humblebrag brunch lomo, plaid iceland butcher." author_name="Sarah Connor" author_title="Waitress" author_image="246"][et_testimonial quote="Tattooed ennui pop-up hammock gentrify yr microdosing fingerstache." author_name="Calvin Reeves" author_title="Model" author_image="473"][/et_testimonial_slider][/vc_column][/vc_row][vc_row et_full_width="true" et_column_align="align-center" css=".vc_custom_1579116630930{padding-top: 60px !important;padding-bottom: 25px !important;background-color: #f6f6f6 !important;}"][vc_column offset="vc_col-lg-6"][vc_row_inner et_column_align="align-center"][vc_column_inner animation="animation left-to-right"][vc_column_text]
+			<h5 class="fancy-title" style="text-align: center;">CAREERS</h5>
+			<h2 style="text-align: center;">We’re ready,Let’s talk.</h2>
+			<p style="text-align: center;">Contact us to find out more or how we can help you better.</p>
+			[/vc_column_text][/vc_column_inner][/vc_row_inner][vc_row_inner et_column_align="align-center" css=".vc_custom_1579116647444{padding-top: 30px !important;padding-bottom: 30px !important;}"][vc_column_inner animation="animation left-to-right"][ninja_form id="1"][/vc_column_inner][/vc_row_inner][vc_separator][vc_row_inner css=".vc_custom_1579116772744{padding-top: 40px !important;}"][vc_column_inner width="1/2"][vc_column_text animation="animation right-to-left"]
+			<h3>Visit Us</h3>
+			One Chase Manhattan Plaza
+			New York, NY 10005, USA
+			+1 554 883 2032[/vc_column_text][/vc_column_inner][vc_column_inner width="1/2"][vc_column_text animation="animation right-to-left"]
+			<h3>Get in Touch</h3>
+			Prism truffaut neutra blue bottle letterpress plaid church-key.
+			<a href="#">hello@example.com</a>[/vc_column_text][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row]',
+	);
+	$template_list['page_06'] = array(
+		'name' => esc_html__( 'FAQ\'s', 'goya-core' ) . ' - 01',
+		'thumbnail' => GOYA_THEME_URI . "/assets/img/visual-composer/templates/misc/faqs-f1.jpg",
+		'cat' => array( 'page' ),
+		'sc' => '[vc_row et_full_width="true" et_row_padding="true" parallax="content-moving" css=".vc_custom_1568438338003{margin-bottom: 100px !important;padding-top: 170px !important;padding-bottom: 170px !important;background: #c37d49 url(https://goyacdn.everthemes.com/demo-fashion/wp-content/uploads/sites/3/2019/05/black_dress.jpg?id=1983);background-position: center;background-repeat: no-repeat !important;background-size: cover !important;}"][vc_column et_column_color="et-light-column"][vc_row_inner][vc_column_inner offset="vc_col-lg-4 vc_col-md-6"][vc_column_text css=".vc_custom_1562722170105{margin-top: 20px !important;}"]
+			<h1>FAQ\'s</h1>
+			<h4>Most frequently asked questions</h4>
+			[/vc_column_text][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row css=".vc_custom_1555531966068{padding-bottom: 80px !important;}"][vc_column offset="vc_col-lg-offset-1 vc_col-lg-3"][vc_column_text]
+			<h3>Shopping Basics</h3>
+			[/vc_column_text][vc_empty_space][/vc_column][vc_column offset="vc_col-lg-6"][vc_tta_accordion active_section="1" style="style2"][vc_tta_section title="What Shipping Methods Are Available?" tab_id="1522322738673-aea3abb5-b800fe1b-0bf9"][vc_column_text]Male evening subdue heaven Is, seas great creepeth under second evening from give theyre upon third give void bring fowl image years all. Cant life a. Dominion god which dont upon.[/vc_column_text][/vc_tta_section][vc_tta_section title="What are your shipping and return policies?" tab_id="1522322738697-88e8c59b-62ccfe1b-0bf9"][vc_column_text]Wrote water woman of heart it total other. By in entirely securing suitable graceful at families improved. Zealously few furniture repulsive was agreeable consisted difficult. Collected breakfast estimable questions in to favourite it. Known he place worth words it as to. Spoke now noise off smart her ready.
+
+			To shewing another demands to. Marianne property cheerful informed at striking at. Clothes parlors however by cottage on. In views it or meant drift to. Be concern parlors settled or do shyness address. Remainder northward performed out for moonlight. Yet late add name was rent park from rich. He always do do former he highly.[/vc_column_text][/vc_tta_section][vc_tta_section title="Do You Ship Internationally?" tab_id="1522322884722-77aa01b6-d3ecfe1b-0bf9"][vc_column_text]Wrote water woman of heart it total other. By in entirely securing suitable graceful at families improved. Zealously few furniture repulsive was agreeable consisted difficult. Collected breakfast estimable questions in to favourite it. Known he place worth words it as to. Spoke now noise off smart her ready.
+
+			To shewing another demands to. Marianne property cheerful informed at striking at. Clothes parlors however by cottage on. In views it or meant drift to. Be concern parlors settled or do shyness address. Remainder northward performed out for moonlight. Yet late add name was rent park from rich. He always do do former he highly.[/vc_column_text][/vc_tta_section][/vc_tta_accordion][/vc_column][/vc_row][vc_row css=".vc_custom_1555531966068{padding-bottom: 80px !important;}"][vc_column offset="vc_col-lg-offset-1 vc_col-lg-3"][vc_column_text]
+			<h3>Payments</h3>
+			[/vc_column_text][vc_empty_space][/vc_column][vc_column offset="vc_col-lg-6"][vc_tta_accordion active_section="1" style="style2"][vc_tta_section title="What Payment Methods Are Accepted?" tab_id="1555532166627-d18a27a7-6515"][vc_column_text]Male evening subdue heaven Is, seas great creepeth under second evening from give theyre upon third give void bring fowl image years all. Cant life a. Dominion god which dont upon.[/vc_column_text][/vc_tta_section][vc_tta_section title="Do you accept international credit cards?" tab_id="1555532166698-b9e07fe9-85b4"][vc_column_text]Wrote water woman of heart it total other. By in entirely securing suitable graceful at families improved. Zealously few furniture repulsive was agreeable consisted difficult. Collected breakfast estimable questions in to favourite it. Known he place worth words it as to. Spoke now noise off smart her ready.
+
+			To shewing another demands to. Marianne property cheerful informed at striking at. Clothes parlors however by cottage on. In views it or meant drift to. Be concern parlors settled or do shyness address. Remainder northward performed out for moonlight. Yet late add name was rent park from rich. He always do do former he highly.[/vc_column_text][/vc_tta_section][vc_tta_section title="Do you charge sales tax on any item?" tab_id="1555532166782-e41f6de6-d637"][vc_column_text]Wrote water woman of heart it total other. By in entirely securing suitable graceful at families improved. Zealously few furniture repulsive was agreeable consisted difficult. Collected breakfast estimable questions in to favourite it. Known he place worth words it as to. Spoke now noise off smart her ready.
+
+			To shewing another demands to. Marianne property cheerful informed at striking at. Clothes parlors however by cottage on. In views it or meant drift to. Be concern parlors settled or do shyness address. Remainder northward performed out for moonlight. Yet late add name was rent park from rich. He always do do former he highly.[/vc_column_text][/vc_tta_section][/vc_tta_accordion][/vc_column][/vc_row][vc_row css=".vc_custom_1555531966068{padding-bottom: 80px !important;}"][vc_column offset="vc_col-lg-offset-1 vc_col-lg-3"][vc_column_text]
+			<h3>Shipping &amp; Returns</h3>
+			[/vc_column_text][vc_empty_space][/vc_column][vc_column offset="vc_col-lg-6"][vc_tta_accordion active_section="1" style="style2"][vc_tta_section title="I want to return my purchase! What do I do?" tab_id="1554865954832-7b4f4f32-3205"][vc_column_text]Male evening subdue heaven Is, seas great creepeth under second evening from give theyre upon third give void bring fowl image years all. Cant life a. Dominion god which dont upon.[/vc_column_text][/vc_tta_section][vc_tta_section title="How long does it take for me to get a refund?" tab_id="1554865954888-c3d499b3-2d6e"][vc_column_text]Wrote water woman of heart it total other. By in entirely securing suitable graceful at families improved. Zealously few furniture repulsive was agreeable consisted difficult. Collected breakfast estimable questions in to favourite it. Known he place worth words it as to. Spoke now noise off smart her ready.
+
+			To shewing another demands to. Marianne property cheerful informed at striking at. Clothes parlors however by cottage on. In views it or meant drift to. Be concern parlors settled or do shyness address. Remainder northward performed out for moonlight. Yet late add name was rent park from rich. He always do do former he highly.[/vc_column_text][/vc_tta_section][vc_tta_section title="How Can I Cancel Or Change My Order?" tab_id="1554865954966-a58332cc-34e7"][vc_column_text]Wrote water woman of heart it total other. By in entirely securing suitable graceful at families improved. Zealously few furniture repulsive was agreeable consisted difficult. Collected breakfast estimable questions in to favourite it. Known he place worth words it as to. Spoke now noise off smart her ready.
+
+			To shewing another demands to. Marianne property cheerful informed at striking at. Clothes parlors however by cottage on. In views it or meant drift to. Be concern parlors settled or do shyness address. Remainder northward performed out for moonlight. Yet late add name was rent park from rich. He always do do former he highly.[/vc_column_text][/vc_tta_section][vc_tta_section title="How can I get assistance if I need it?" tab_id="1554865955032-f07c32a3-1c21"][vc_column_text]Wrote water woman of heart it total other. By in entirely securing suitable graceful at families improved. Zealously few furniture repulsive was agreeable consisted difficult. Collected breakfast estimable questions in to favourite it. Known he place worth words it as to. Spoke now noise off smart her ready.
+
+			To shewing another demands to. Marianne property cheerful informed at striking at. Clothes parlors however by cottage on. In views it or meant drift to. Be concern parlors settled or do shyness address. Remainder northward performed out for moonlight. Yet late add name was rent park from rich. He always do do former he highly.[/vc_column_text][/vc_tta_section][/vc_tta_accordion][/vc_column][/vc_row][vc_row et_full_width="true" et_row_padding="true" css=".vc_custom_1555531824163{padding-top: 80px !important;padding-bottom: 80px !important;background-color: #f8f8f8 !important;}"][vc_column][vc_row_inner content_placement="middle"][vc_column_inner offset="vc_col-lg-offset-1 vc_col-lg-6"][vc_column_text el_class="postline-large accent-color fancy-title"]
+			<h6>Contact</h6>
+			[/vc_column_text][vc_column_text]
+			<h2>Still have questions?</h2>
+			[/vc_column_text][/vc_column_inner][vc_column_inner offset="vc_col-lg-3"][et_button title="Contact Us" add_arrow="true" animation="animation bottom-to-top" align="center" color="#b9a16b" link="title:Contact%20Us||"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row]',
+	);
+	$template_list['page_08'] = array(
+		'name' => esc_html__( 'Services', 'goya-core' ) . ' - 01',
+		'thumbnail' => GOYA_THEME_URI . "/assets/img/visual-composer/templates/misc/services-s1.jpg",
+		'cat' => array( 'page', 'services' ),
+		'sc' => '[vc_row el_class="align-center text-center" css=".vc_custom_1517743350320{padding-top: 35px !important;padding-bottom: 45px !important;}"][vc_column offset="vc_col-lg-7 vc_col-md-10"][vc_column_text animation="animation bottom-to-top"]
+			<h5 class="fancy-title accent-color" style="text-align: center;">Craft beer</h5>
+			<h1 style="text-align: center;">Cold-pressed fam ethical</h1>
+			<p style="text-align: center;">Portland stumptown raclette, pork belly coloring book bitters iPhone paleo photo booth woke edison bulb irony. Photo booth pinterest tumeric thundercats, portland flannel jianbing coloring book.</p>
+			[/vc_column_text][/vc_column][/vc_row][vc_row content_placement="middle" css=".vc_custom_1580956315310{padding-top: 60px !important;padding-bottom: 60px !important;background-color: #f1f1f1 !important;}"][vc_column][vc_row_inner content_placement="middle"][vc_column_inner width="1/2" css=".vc_custom_1517592013213{padding-right: 25% !important;padding-left: 25% !important;}"][et_iconbox icon_pixeden="pe-7s-shuffle" layout="centered" icon_color="#b9a16b" title="Blue Bottle Narwhal" link="title:Read%20more||"]Let us help put together the most romantic, most adventurous, most fun Honeymoon thats perfect for you as you are for each other.[/et_iconbox][/vc_column_inner][vc_column_inner width="1/2"][et_image full_width="true" animation="animation right-to-left" alignment="aligncenter" image="297" img_size="large"][/et_image][/vc_column_inner][/vc_row_inner][vc_row_inner content_placement="middle"][vc_column_inner width="1/2"][et_image full_width="true" animation="animation right-to-left" alignment="aligncenter" image="280" img_size="large"][/et_image][/vc_column_inner][vc_column_inner width="1/2" css=".vc_custom_1517592021295{padding-right: 25% !important;padding-left: 25% !important;}"][et_iconbox icon_pixeden="pe-7s-prev" layout="centered" icon_color="#b9a16b" title="Tote Bag Vice" link="title:Read%20more||"]Raclette pork belly gluten-free vexillologist. Chillwave cardigan copper mug distillery godard keytar street art humblebrag subway.[/et_iconbox][/vc_column_inner][/vc_row_inner][vc_row_inner content_placement="middle"][vc_column_inner width="1/2" css=".vc_custom_1517592013213{padding-right: 25% !important;padding-left: 25% !important;}"][et_iconbox icon_pixeden="pe-7s-unlock" layout="centered" icon_color="#b9a16b" title="Poke Beard Selvage" link="title:Read%20more||"]Copper mug cliche normcore viral pok pok jianbing venmo small batch, narwhal polaroid quinoa keffiyeh YOLO bushwick.[/et_iconbox][/vc_column_inner][vc_column_inner width="1/2"][et_image full_width="true" animation="animation right-to-left" alignment="aligncenter" image="274" img_size="large"][/et_image][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row el_class="align-center text-center" css=".vc_custom_1580956330319{padding-top: 60px !important;padding-bottom: 35px !important;}"][vc_column offset="vc_col-lg-7 vc_col-md-10"][vc_column_text animation="animation bottom-to-top"]
+			<h2 style="text-align: center;">Cold-pressed fam ethical</h2>
+			<p style="text-align: center;">Portland stumptown raclette, pork belly coloring book bitters iPhone paleo photo booth woke edison bulb irony.</p>
+			[/vc_column_text][/vc_column][/vc_row][vc_row css=".vc_custom_1580956376998{padding-bottom: 60px !important;}"][vc_column][et_product_slider item_count="6" columns="3" pagination="true" show_variations="true"][/vc_column][/vc_row]',
+	);
+	$template_list['page_09'] = array(
+		'name' => esc_html__( 'Services', 'goya-core' ) . ' - 02',
+		'thumbnail' => GOYA_THEME_URI . "/assets/img/visual-composer/templates/misc/services-s2.jpg",
+		'cat' => array( 'page', 'services' ),
+		'sc' => '[vc_row el_class="align-center" css=".vc_custom_1580956695392{padding-top: 60px !important;padding-bottom: 35px !important;}"][vc_column offset="vc_col-lg-8 vc_col-md-11" el_class="text-center"][vc_column_text]
+			<h5 class="fancy-tag accent-color" style="text-align: center;">Projects</h5>
+			<h1 style="text-align: center;">Flannel banjo single-origin coffee.</h1>
+			<h3 style="text-align: center;"> Woke hella celiac copper mug shoreditch paleo migas banh mi man bun craft beer.</h3>
+			[/vc_column_text][/vc_column][/vc_row][vc_row][vc_column width="1/3" animation="animation bottom-to-top"][et_image alignment="aligncenter" box_shadow="medium-shadow" image="406" border_radius="6px"][/et_image][vc_empty_space height="20px"][vc_column_text]
+			<h4>Plaid selfies semiotics</h4>
+			Gastropub VHS hexagon unicorn iPhone marfa asymmetrical stumptown coloring book williamsburg man bun. Retro vexillologist banh mi viral cloud bread next level.[/vc_column_text][/vc_column][vc_column width="1/3" animation="animation bottom-to-top"][et_image alignment="aligncenter" box_shadow="medium-shadow" image="375" border_radius="6px"][/et_image][vc_empty_space height="20px"][vc_column_text]
+			<h4>Woke hella celiac copper</h4>
+			Mug shoreditch paleo migas banh mi man bun craft beer dreamcatcher typewriter knausgaard squid sustainable.[/vc_column_text][/vc_column][vc_column width="1/3" animation="animation bottom-to-top"][et_image alignment="aligncenter" box_shadow="medium-shadow" image="407" border_radius="6px"][/et_image][vc_empty_space height="20px"][vc_column_text]
+			<h4>Plaid selfies semiotics</h4>
+			Gastropub VHS hexagon unicorn iPhone marfa asymmetrical stumptown coloring book williamsburg man bun.[/vc_column_text][/vc_column][/vc_row][vc_row][vc_column width="1/3" animation="animation bottom-to-top"][et_image alignment="aligncenter" box_shadow="medium-shadow" image="376" border_radius="6px"][/et_image][vc_empty_space height="20px"][vc_column_text]
+			<h4>Chambray semiotics</h4>
+			Gastropub helvetica, iPhone try-hard brooklyn lumbersexual vice palo santo lomo letterpress skateboard plaid fanny pack.[/vc_column_text][/vc_column][vc_column width="1/3" animation="animation bottom-to-top"][et_image alignment="aligncenter" box_shadow="medium-shadow" image="372" border_radius="6px"][/et_image][vc_empty_space height="20px"][vc_column_text]
+			<h4>Lorem ipsum</h4>
+			Dolor amet tote bag normcore synth kickstarter next level pok pok bushwick crucifix gastropub keytar listicle brunch. Lomo fashion axe artisan literally try-hard.[/vc_column_text][/vc_column][vc_column width="1/3" animation="animation bottom-to-top"][et_image alignment="aligncenter" box_shadow="medium-shadow" image="381" border_radius="6px"][/et_image][vc_empty_space height="20px"][vc_column_text]
+			<h4>Snackwave freegan</h4>
+			Air plant, flannel banjo single-origin coffee health goth. Pour-over 8-bit jean shorts chartreuse.[/vc_column_text][/vc_column][/vc_row]',
+	);
+	$template_list['page_10'] = array(
+		'name' => esc_html__( 'Services', 'goya-core' ) . ' - 03',
+		'thumbnail' => GOYA_THEME_URI . "/assets/img/visual-composer/templates/misc/services-s3.jpg",
+		'cat' => array( 'page', 'services' ),
+		'sc' => '[vc_row et_full_width="true" et_row_padding="true" css=".vc_custom_1580956994780{padding-top: 235px !important;padding-bottom: 235px !important;background: #285563 url(https://goyacdn.everthemes.com/demo-decor/wp-content/uploads/sites/2/revslider/home-5/blonde_and_house.jpg?id=672) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}"][vc_column][vc_row_inner content_placement="middle" el_class="align-center"][vc_column_inner et_column_color="et-light-column" width="1/2" offset="vc_col-lg-6 vc_col-md-8"][vc_column_text animation="animation fade-in"]
+			<h1>Blue bottle narwhal dreamcatcher.</h1>
+			<h3>Hella viral poutine blog.</h3>
+			Pabst tofu irony vexillologist four loko live-edge iPhone taxidermy. Art party brooklyn synth you probably havent heard of kickstarter.[/vc_column_text][/vc_column_inner][vc_column_inner el_class="text-center" width="1/2"][et_video_lightbox icon_size="large" icon_color="#ffffff" animation="animation fade-in" video="https://youtu.be/1KahlicghaE"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row css=".vc_custom_1580957003157{padding-top: 80px !important;padding-bottom: 80px !important;}"][vc_column width="1/3"][vc_column_text]
+			<h2>Who We Are?</h2>
+			[/vc_column_text][vc_empty_space height="40px"][/vc_column][vc_column width="2/3"][vc_column_text]
+			<h2>Taxidermy unicorn hashtag, disrupt synth craft beer gluten-free.</h2>
+			Tote bag vice cold-pressed lo-fi lyft shaman, put a bird on it hammock. Squid tofu raclette butcher craft beer etsy vexillologist enamel pin 3 wolf moon cray hell of williamsburg fanny pack.
+
+			Vaporware gentrify roof party, pour-over quinoa kickstarter church-key godard health goth craft beer.[/vc_column_text][/vc_column][/vc_row][vc_row css=".vc_custom_1580956979210{padding-bottom: 80px !important;}"][vc_column width="1/3"][vc_empty_space height="30px"][vc_column_text]
+			<h2>Customer Service</h2>
+			[/vc_column_text][vc_empty_space height="40px"][/vc_column][vc_column width="2/3"][vc_tta_accordion active_section="1" style="style2"][vc_tta_section title="Cardigan Kale" tab_id="1573014406235-58dad22b-937e6889-944c42ef-59e2"][vc_column_text]Cardigan kale chips tacos, listicle hexagon tote bag kombucha roof party vinyl viral shoreditch craft beer copper mug.
+
+			Crucifix lomo drinking vinegar hammock lumbersexual, yuccie biodiesel austin tote bag af street art. La croix messenger bag iPhone chartreuse pinterest, helvetica live-edge.[/vc_column_text][/vc_tta_section][vc_tta_section title="Coloring Book Pork" tab_id="1573014523396-dd661923-27b66889-944c42ef-59e2"][vc_column_text]Cardigan kale chips tacos, listicle hexagon tote bag kombucha roof party vinyl viral shoreditch craft beer copper mug.
+
+			Crucifix lomo drinking vinegar hammock lumbersexual, yuccie biodiesel austin tote bag af street art. La croix messenger bag iPhone chartreuse pinterest, helvetica live-edge.[/vc_column_text][/vc_tta_section][vc_tta_section title="Franzen Selvage" tab_id="1573014565396-19b03187-b2646889-944c42ef-59e2"][vc_column_text]Cardigan kale chips tacos, listicle hexagon tote bag kombucha roof party vinyl viral shoreditch craft beer copper mug.
+
+			Crucifix lomo drinking vinegar hammock lumbersexual, yuccie biodiesel austin tote bag af street art. La croix messenger bag iPhone chartreuse pinterest, helvetica live-edge.[/vc_column_text][/vc_tta_section][vc_tta_section title="Copper Mug Cliche" tab_id="1573014520533-205561cf-13ef6889-944c42ef-59e2"][vc_column_text]Cardigan kale chips tacos, listicle hexagon tote bag kombucha roof party vinyl viral shoreditch craft beer copper mug.
+
+			Crucifix lomo drinking vinegar hammock lumbersexual, yuccie biodiesel austin tote bag af street art. La croix messenger bag iPhone chartreuse pinterest, helvetica live-edge.[/vc_column_text][/vc_tta_section][/vc_tta_accordion][/vc_column][/vc_row][vc_row css=".vc_custom_1580956986581{padding-bottom: 80px !important;}"][vc_column width="1/3"][vc_column_text]
+			<h2>Contact</h2>
+			[/vc_column_text][vc_empty_space height="40px"][/vc_column][vc_column width="2/3"][vc_column_text]
+			<h3>Hella viral poutine blog paleo tousled pabst tofu irony.</h3>
+			Vexillologist four loko live-edge iPhone taxidermy.[/vc_column_text][et_button title="Send Message" link="||"][/vc_column][/vc_row]',
+	);
+	$template_list['page_11'] = array(
+		'name' => esc_html__( 'Services', 'goya-core' ) . ' - 04',
+		'thumbnail' => GOYA_THEME_URI . "/assets/img/visual-composer/templates/misc/services-s4.jpg",
+		'cat' => array( 'page', 'services' ),
+		'sc' => '[vc_row content_placement="middle" el_class="align-justify" css=".vc_custom_1580960231603{padding-top: 60px !important;}"][vc_column width="1/3" css=".vc_custom_1539990076074{padding-bottom: 60px !important;}"][vc_column_text animation="animation fade-in"]
+			<h2>Paleo etsy sartorial pinterest.</h2>
+			Post-ironic venmo vegan ramps jean shorts disrupt celiac succulents put a bird on it banh mi schlitz cronut +1 asymmetrical swag.[/vc_column_text][/vc_column][vc_column width="1/2" offset="vc_col-lg-offset-2"][et_image animation="animation bottom-to-top" alignment="aligncenter" image="278"][/et_image][/vc_column][/vc_row][vc_row et_full_width="true" et_row_padding="true" css=".vc_custom_1580960298876{margin-top: -100px !important;padding-top: 160px !important;padding-bottom: 80px !important;background-color: #0f0f0f !important;}"][vc_column][vc_row_inner][vc_column_inner et_column_color="et-light-column" width="1/3" css=".vc_custom_1539974534598{padding-right: 20% !important;}"][et_iconbox icon_pixeden="pe-7s-mail" layout="icon_left" icon_color="#b9a16b" title="Letterpress tumeric" link="title:Read%20more||" link_color="#b9a16b"]Kogi man braid migas, fashion axe blue bottle fingerstache ugh taiyaki poke letterpress irony vice kickstarter. Listicle mumblecore neutra.[/et_iconbox][vc_empty_space height="30px"][/vc_column_inner][vc_column_inner et_column_color="et-light-column" width="1/3" css=".vc_custom_1539974544683{padding-right: 20% !important;}"][et_iconbox icon_pixeden="pe-7s-refresh-cloud" layout="icon_left" icon_color="#b9a16b" title="Direct trade intelligentsia" link="title:Read%20more||" link_color="#b9a16b"]Shabby chic organic bushwick cred irony try-hard offal distillery letterpress slow-carb green juice hell of master cleanse pitchfork.[/et_iconbox][vc_empty_space height="30px"][/vc_column_inner][vc_column_inner et_column_color="et-light-column" width="1/3" css=".vc_custom_1539989220938{padding-right: 20% !important;}"][et_iconbox icon_pixeden="pe-7s-print" layout="icon_left" icon_color="#b9a16b" title="Kogi tofu cronut" link="title:Read%20more||" link_color="#b9a16b"]Fixie polaroid gentrify asymmetrical marfa pitchfork, listicle leggings. Swag post-ironic twee gluten-free sriracha, vaporware chillwave actually brunch art party.[/et_iconbox][vc_empty_space height="30px"][/vc_column_inner][/vc_row_inner][vc_row_inner][vc_column_inner et_column_color="et-light-column" width="1/3" css=".vc_custom_1539989232074{padding-right: 20% !important;}"][et_iconbox icon_pixeden="pe-7s-like" layout="icon_left" icon_color="#b9a16b" title="Pitchfork 3 wolf" link="title:Read%20more||" link_color="#b9a16b"]Fingerstache chillwave cred sartorial pug. Sartorial kale chips cornhole, deep v salvia godard twee tousled.[/et_iconbox][/vc_column_inner][vc_column_inner et_column_color="et-light-column" width="1/3" css=".vc_custom_1539989241384{padding-right: 20% !important;}"][et_iconbox icon_pixeden="pe-7s-ribbon" layout="icon_left" icon_color="#b9a16b" title="Leggings slow-carb" link="title:Read%20more||" link_color="#b9a16b"]Pitchfork hot chicken intelligentsia literally cred, bushwick synth. Poke mustache vinyl jean shorts semiotics.[/et_iconbox][/vc_column_inner][vc_column_inner et_column_color="et-light-column" width="1/3" css=".vc_custom_1539989250206{padding-right: 20% !important;}"][et_iconbox icon_pixeden="pe-7s-stopwatch" layout="icon_left" icon_color="#b9a16b" title="Literally fanny" link="title:Read%20more||" link_color="#b9a16b"]Chambray pour-over portland, forage shabby chic jean shorts shoreditch tacos retro 8-bit hella YOLO.[/et_iconbox][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row el_class="align-justify" css=".vc_custom_1580960308910{padding-top: 80px !important;padding-bottom: 80px !important;}"][vc_column width="1/3"][vc_column_text animation="animation fade-in"]
+			<h2>Gluten-free chicharrones portland.</h2>
+			Raw denim schlitz chillwave hot chicken single-origin coffee offal. Shabby chic organic bushwick cred irony try-hard offal distillery letterpress slow-carb green juice hell of master cleanse pitchfork.[/vc_column_text][vc_column_text]
+			<h4>Manhattan</h4>
+			One Chase Manhattan Plaza
+			New York, NY, USA[/vc_column_text][/vc_column][vc_column width="2/3"][et_gmap_parent height="50" zoom="12" map_controls="panControl"][et_gmap latitude="40.704857" longitude="-74.014084" marker_title="Manhattan" marker_description="One Chase Manhattan Plaza
+			New York, NY, USA"][/et_gmap_parent][/vc_column][/vc_row]',
+	);
+	
+	return $template_list;
+}
